@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Giver:</strong>
+  <%= @gift.giver_id %>
+</p>
+
+<p>
+  <strong>Receiver:</strong>
+  <%= @gift.receiver_id %>
+</p>
+
+<p>
+  <strong>Merchant:</strong>
+  <%= @gift.merchant_id %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @gift.amount %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @gift.amount %>
+</p>
+
+<%= link_to 'Edit', edit_gift_path(@gift) %> |
+<%= link_to 'Back', gifts_path %>

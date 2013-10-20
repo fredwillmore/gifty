@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  giver_id: 
+  receiver_id: 
+  merchant_id: 
+  amount: 
+  amount: 
+
+two:
+  giver_id: 
+  receiver_id: 
+  merchant_id: 
+  amount: 
+  amount: 
