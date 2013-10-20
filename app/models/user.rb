@@ -3,10 +3,6 @@ class User < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :invitable, :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
-
-  attr_accessible :email, :password, :password_confirmation, :first_name, :last_name
-
-  def create
-    create!
-  end
+  has_and_belongs_to_many :merchants # , as: favorite
+  belongs_to :merchants # , as: admin
 end

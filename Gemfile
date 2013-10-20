@@ -46,6 +46,8 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem "better_errors"
+
 gem 'globalize3'
 #gem "devise", ">= 2.2.4"
 gem "devise"

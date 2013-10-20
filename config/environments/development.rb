@@ -28,4 +28,8 @@ Gifty::Application.configure do
   config.assets.debug = true
 
   config.serve_static_assets = false
+
+  # better_errors gem url handler, also requires app from this .zip copied to your Applications folder:
+  # http://devnet.jetbrains.com/message/5477503?tstart=0
+  BetterErrors.editor='rubymine://open?url=file://%{file}&line=%{line}'
 end
