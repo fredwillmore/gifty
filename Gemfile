@@ -61,3 +61,9 @@ gem "rolify"
 gem 'state_machine'
 gem 'vestal_versions'
 #gem 'vestal_versions', github: 'laserlemon/vestal_versions'
+
+gem "nifty-generators", :group => :development
+gem "geocoder"
+gem "mocha", group: :test
+
+#gem "protected_attributes"

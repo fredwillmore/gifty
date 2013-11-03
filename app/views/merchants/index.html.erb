@@ -12,9 +12,15 @@
   <tbody>
     <% @merchants.each do |merchant| %>
       <tr>
+        <td colspan="3"><%= merchant.name %></td>
+      </tr>
+      <tr>
         <td><%= link_to 'Show', merchant %></td>
         <td><%= link_to 'Edit', edit_merchant_path(merchant) %></td>
         <td><%= link_to 'Destroy', merchant, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+      <tr>
+        <td colspan="3"><br></td>
       </tr>
     <% end %>
   </tbody>

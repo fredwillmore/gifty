@@ -14,3 +14,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+//function remove_location_fields(link) {
+//    $(link).prev("#merchant_locations_attributes_0__destroy").value=true;
+////    $(link).parent(".location_fields").hide();
+//}

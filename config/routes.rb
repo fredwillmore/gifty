@@ -1,13 +1,14 @@
 Gifty::Application.routes.draw do
+  resources :locations
   resources :purchases
 
   resources :merchants
 
   resources :gifts
 
-#  resources :users
-
   devise_for :users
+  resources :users, :only => [:index, :show, :edit, :new]
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -15,6 +15,9 @@ class MerchantsController < ApplicationController
   # GET /merchants/new
   def new
     @merchant = Merchant.new
+    3.times {
+      @merchant.locations.build
+    }
   end
 
   # GET /merchants/1/edit
@@ -25,6 +28,9 @@ class MerchantsController < ApplicationController
   # POST /merchants.json
   def create
     @merchant = Merchant.new(merchant_params)
+    #3.times {
+    #  @merchant.locations.build
+    #}
 
     respond_to do |format|
       if @merchant.save
@@ -69,6 +75,9 @@ class MerchantsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def merchant_params
-      params[:merchant]
+#      params[:merchant]
+#      params.require(:list).permit(:title, :user_id, :updated_at, :created_at)
+      params.require(:merchant).permit(:name, :locations_attributes=>[:id, :address, :latitude, :longitude, :_destroy])
+#      params.require(:merchant).permit(:name)
     end
 end
