@@ -46,7 +46,10 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem "better_errors"
+gem 'thin', :group => [:local, :development]
+gem 'better_errors', :group => [:local, :development]
+gem 'binding_of_caller', :group => [:local, :development]
+gem 'meta_request', :group => [:local, :development]
 
 gem 'globalize3'
 #gem "devise", ">= 2.2.4"
@@ -67,3 +70,5 @@ gem "geocoder"
 gem "mocha", group: :test
 
 #gem "protected_attributes"
+
+gem "inherited_resources"

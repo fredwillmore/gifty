@@ -1,0 +1,10 @@
+
+<%= f.field_wrapper :text_field, :title, @user %>
+<%= f.field_wrapper :text_field, :first_name, @user %>
+<%= f.field_wrapper :text_field, :last_name, @user %>
+<%= f.field_wrapper :text_field, :email, @user %>
+<%= f.field_wrapper :select, :role_id, @user, {collection: Role.all} %>
+<% if current_user == @user %>
+    <%= f.field_wrapper :text_field, :password, @user %>
+    <%= f.field_wrapper :text_field, :confirm_password, @user %>
+<% end %>

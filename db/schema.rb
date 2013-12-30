@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131018010857) do
+ActiveRecord::Schema.define(version: 20131108035211) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -27,13 +27,37 @@ ActiveRecord::Schema.define(version: 20131018010857) do
     t.datetime "updated_at"
   end
 
-  create_table "merchants", force: true do |t|
+  create_table "locations", force: true do |t|
+    t.integer  "merchant_id"
+    t.string   "address"
+    t.float    "latitude"
+    t.float    "longitude"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
+  create_table "merchants", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "name"
+  end
+
   create_table "purchases", force: true do |t|
     t.integer  "gift_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "roles", force: true do |t|
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "key"
+    t.string   "name"
+  end
+
+  create_table "roles_users", force: true do |t|
+    t.integer  "role_id"
+    t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -50,6 +74,13 @@ ActiveRecord::Schema.define(version: 20131018010857) do
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
     t.string   "invitable"
+    t.string   "invitation_token"
+    t.datetime "invitation_created_at"
+    t.datetime "invitation_sent_at"
+    t.datetime "invitation_accepted_at"
+    t.integer  "invitation_limit"
+    t.integer  "invited_by_id"
+    t.string   "invited_by_type"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "first_name",                          null: false

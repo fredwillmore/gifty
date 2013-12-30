@@ -5,16 +5,16 @@
     <ignored path="gifty.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1381423135163" ignored="false" />
-    <file path="/Gemfile" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1381424212621" ignored="false" />
+    <file path="/Gemfile" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385848844780" ignored="false" />
     <file path="/Dummy.txt" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1381981437385" ignored="false" />
     <file path="$PROJECT_DIR$/../trece-dev/app/admin/resources.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382135958699" ignored="false" />
-    <file path="/resources.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382118162255" ignored="false" />
-    <file path="/fragment.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382245605389" ignored="false" />
+    <file path="/resources.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384567911907" ignored="false" />
+    <file path="/fragment.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1386646295114" ignored="false" />
     <file path="$PROJECT_DIR$/../trece-dev/app/views/admin/partner_resources/_sidebar.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1381532052829" ignored="false" />
     <file path="$PROJECT_DIR$/../trece-dev/config/locales/models/company/en.yml" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1381523210195" ignored="false" />
     <file path="$PROJECT_DIR$/../trece-dev/config/routes.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382233155150" ignored="false" />
     <file path="$PROJECT_DIR$/../trece-dev/app/views/application/_global_navigation.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1381524994360" ignored="false" />
-    <file path="/routes.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382240593599" ignored="false" />
+    <file path="/routes.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385852902584" ignored="false" />
     <file path="$PROJECT_DIR$/../trece-dev/config/initializers/active_admin_overrides.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382135958699" ignored="false" />
     <file path="$PROJECT_DIR$/../trece-dev/spec/spec_helper.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1381527276670" ignored="false" />
     <file path="$PROJECT_DIR$/../trece-dev/db/seeds/01_majaro.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1381781382641" ignored="false" />
@@ -26,7 +26,7 @@
     <file path="$PROJECT_DIR$/../trece-dev/config/initializers/list_options.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1381774600649" ignored="false" />
     <file path="/list_options.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1381774599113" ignored="false" />
     <file path="$PROJECT_DIR$/../trece-dev/app/helpers/resources_helper.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1381793247063" ignored="false" />
-    <file path="/resource.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382231694538" ignored="false" />
+    <file path="/resource.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385708361867" ignored="false" />
     <file path="/resources_helper.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1381793127350" ignored="false" />
     <file path="/active_admin_overrides.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1381817779968" ignored="false" />
     <file path="$PROJECT_DIR$/../trece-dev/app/controllers/partner_resources_controller.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382147998367" ignored="false" />
@@ -35,14 +35,14 @@
     <file path="$PROJECT_DIR$/../trece-dev/app/views/partner_resources/search.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1381860914626" ignored="false" />
     <file path="/search.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1381860912140" ignored="false" />
     <file path="$PROJECT_DIR$/../trece-dev/app/views/partner_resources/index.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382236635027" ignored="false" />
-    <file path="/Ruby Console" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382236476867" ignored="false" />
+    <file path="/Ruby Console" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385600885451" ignored="false" />
     <file path="$PROJECT_DIR$/../trece-dev/db/migrate/20130910162607_add_cogroup_ids_cotype_ids_to_resources.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1381863062816" ignored="false" />
     <file path="/20130910162607_add_cogroup_ids_cotype_ids_to_resources.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1381863052277" ignored="false" />
     <file path="/home_controller.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1381981779932" ignored="false" />
-    <file path="/index.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382236535168" ignored="false" />
+    <file path="/index.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385833885786" ignored="false" />
     <file path="/20131011010909_create_purchases.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1381982767239" ignored="false" />
     <file path="/20131013194846_create_gifts.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1381982797159" ignored="false" />
-    <file path="/users_controller.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382057091482" ignored="false" />
+    <file path="/users_controller.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385855063296" ignored="false" />
     <file path="$PROJECT_DIR$/../trece-dev/app/controllers/sales_leads_controller.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382119942042" ignored="false" />
     <file path="/sales_leads_controller.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382119778952" ignored="false" />
     <file path="$PROJECT_DIR$/../trece-dev/config/initializers/devise.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382135981632" ignored="false" />
@@ -55,11 +55,130 @@
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/faker-1.1.2/lib/faker.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382142773138" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/activeadmin-0.6.0/lib/active_admin/resource_controller/data_access.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382145921765" ignored="false" />
     <file path="$PROJECT_DIR$/../trece-dev/app/views/layouts/application.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382148927455" ignored="false" />
-    <file path="/application.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382148927057" ignored="false" />
+    <file path="/application.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385831882592" ignored="false" />
     <file path="/new.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382244966976" ignored="false" />
-    <file path="/user.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382301201073" ignored="false" />
+    <file path="/user.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385836033430" ignored="false" />
     <file path="/user_sanitizer.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382295720662" ignored="false" />
     <file path="/merchant.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1382300916480" ignored="false" />
+    <file path="/role.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385763709190" ignored="false" />
+    <file path="/seeds.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385845357457" ignored="false" />
+    <file path="/20131108033020_create_roles.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1383883147217" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/config/routes.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385573516582" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/config/initializers/list_options.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384475953748" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/spec/factories/user.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385666403118" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/spec/factories/resources.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385746093842" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/spec/features/partner_resources_spec.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385605267719" ignored="false" />
+    <file path="/partner_resources_spec.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384479387590" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/spec/factories/companies.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385768797463" ignored="false" />
+    <file path="/companies.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385766252153" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/spec/factories/company_profiles.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384481375788" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/models/resource.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385708363522" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/models/filter_value.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384570816713" ignored="false" />
+    <file path="/filter_value.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384547856544" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/admin/resources.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384570945014" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/spec/features/resources_spec.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385605505047" ignored="false" />
+    <file path="/resources_spec.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384553969616" ignored="false" />
+    <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/activerecord-3.2.12/lib/active_record/base.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384555229851" ignored="false" />
+    <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/inherited_resources-1.4.1/lib/inherited_resources/actions.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384556520483" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/config/initializers/vestal_versions.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385593083889" ignored="false" />
+    <file path="/vestal_versions.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385593013024" ignored="false" />
+    <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/bundler/gems/vestal_versions-c7aa512666b2/lib/vestal_versions/creation.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385444664411" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/controllers/application_controller.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385578830221" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/models/user.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385742424249" ignored="false" />
+    <file path="/application_controller.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385788864710" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/controllers/filter_values.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384568510819" ignored="false" />
+    <file path="/filter_values.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384568501504" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/config/initializers/class.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384571165838" ignored="false" />
+    <file path="/class.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384570136788" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/admin/companies.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385494975843" ignored="false" />
+    <file path="/_form.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385863455166" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/views/admin/resources/_form.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384830156264" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/lib/forms.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385591810136" ignored="false" />
+    <file path="/forms.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385591518013" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/views/admin/companies/_form.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385573516582" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/helpers/application_helper.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384821262401" ignored="false" />
+    <file path="/application_helper.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384803077638" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/assets/javascripts/application.js" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384802430387" ignored="false" />
+    <file path="/application.js" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384802392505" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/assets/javascripts/active_admin.js" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384805980331" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/views/domains/_fields.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384810040983" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/models/company.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385663669635" ignored="false" />
+    <file path="/company.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385598178470" ignored="false" />
+    <file path="/_fields.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1386644292189" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/views/shared/_domains.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384818851312" ignored="false" />
+    <file path="/_domains.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384818501161" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/views/shared/_domain.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384814876846" ignored="false" />
+    <file path="/_domain.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384814876846" ignored="false" />
+    <file path="/_contacts.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384815810791" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/views/shared/_contacts.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384815832889" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/views/admin/companies/_contact_fields.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384815840890" ignored="false" />
+    <file path="/_contact_fields.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384815662958" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/views/shared/_contact.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384815835922" ignored="false" />
+    <file path="/_contact.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384815723805" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/tmp/data/meta_request/97fa8a558ca60ab89875d7207715d24b.json" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384816283750" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/tmp/data/meta_request/3b45d8b684d9e81fc27851d44c80b46f.json" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384816283750" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/tmp/data/meta_request/77e186e267751151c6e52523e67305bd.json" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384816283750" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/tmp/data/meta_request/1857b61a716576fa2224c7a5e8b50ad2.json" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384816283750" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/tmp/data/meta_request/df171484fcf38d5aef5d54c3f5e967c4.json" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384816283750" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/tmp/data/meta_request/0e97cb4b2a7e1da4e3af0512d5bb8b2f.json" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384816283750" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/tmp/data/meta_request/3e75b6a2f2178168a398e0dc358f11cb.json" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384816283750" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/controllers/pages_controller.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1384818917063" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/models/domain.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385502755008" ignored="false" />
+    <file path="/domain.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385424796331" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/admin/users.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385573516582" ignored="false" />
+    <file path="/users.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385571426079" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/views/admin/users/_form.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385573456525" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/db/seeds/01_majaro.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385404063002" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/config/initializers/active_admin_overrides.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385420908650" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/config/locales/general/en.yml" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385420908651" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/config/locales/general/es.yml" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385420908651" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/config/locales/errors/en.yml" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385578830221" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/config/locales/errors/es.yml" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385578830221" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/config/initializers/formtastic.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385573516582" ignored="false" />
+    <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/bundler/gems/vestal_versions-c7aa512666b2/lib/vestal_versions/reversion.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385426764137" ignored="false" />
+    <file path="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/activemodel-3.2.12/lib/active_model/dirty.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385431957097" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/config/locales/models/company/en.yml" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385582910170" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/models/company_profile.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385502755008" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/config/locales/activerecord/models/en.yml" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385655518545" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/config/locales/activerecord/models/es.yml" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385655518545" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/db/migrate/20130305054447_rolify_create_roles.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385517750186" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/db/seeds/03_redseal.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385516674093" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/views/layouts/application.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385578608987" ignored="false" />
+    <file path="/common_actions.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385742686838" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/spec/support/features/common_actions.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385742687808" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/spec/controllers/admin/companies_controller_spec.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385663333776" ignored="false" />
+    <file path="/companies_controller_spec.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385745314773" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/spec/controllers/admin/resources_controller_spec.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385606028656" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/spec/models/role_spec.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385758599178" ignored="false" />
+    <file path="/role_spec.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385758598132" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/helpers/companies_helper.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385655518545" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/config/locales/models/resources/en.yml" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385655518545" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/spec/controllers/sales_leads_controller_spec.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385768628472" ignored="false" />
+    <file path="/sales_leads_controller_spec.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385768182770" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/spec/controllers/admin/users_controller_spec.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385663567187" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/spec/controllers/companies_controller_spec.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385745320194" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/spec/models/company_spec.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385708287544" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/spec/factories/role.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385764110590" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/models/role.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385703770663" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/spec/features/companies_spec.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385747126990" ignored="false" />
+    <file path="/companies_spec.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385747121758" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/spec/features/custom_fields_spec.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385758943212" ignored="false" />
+    <file path="/custom_fields_spec.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385746516872" ignored="false" />
+    <file path="/company_spec.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385708260344" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/spec/features/users_spec.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385743051283" ignored="false" />
+    <file path="/sales_leads.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385762367304" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/spec/factories/sales_leads.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385764587796" ignored="false" />
+    <file path="/sales_lead.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385764013622" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/models/sales_lead.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385764015161" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/spec/spec_helper.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385768680818" ignored="false" />
+    <file path="/_header.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385787324457" ignored="false" />
+    <file path="/20131108035211_create_user_roles.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385845039213" ignored="false" />
+    <file path="/show.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385865893888" ignored="false" />
+    <file path="$PROJECT_DIR$/../mako-dev/app/views/companies/_form.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385863118770" ignored="false" />
+    <file path="/simple_form.rb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1386645861987" ignored="false" />
+    <file path="/en.yml" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385867710574" ignored="false" />
+    <file path="/application.css" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385868528752" ignored="false" />
+    <file path="/edit.html.erb" changelist="11aa6116-37c4-463a-a15f-afee687afc79" time="1385872011191" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,82 +198,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="19" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
+            <state line="4" column="0" selection-start="91" selection-end="124" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_sanitizer.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/user_sanitizer.rb">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registrations_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/devise_invitable-1.3.0/app/controllers/devise_invitable/registrations_controller.rb">
+      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+            <state line="5" column="24" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sanitizers.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/sanitizers.rb">
+      <file leaf-file-name="_fields.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/_fields.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="57" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+            <state line="9" column="44" selection-start="444" selection-end="444" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="purchases_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/purchases_controller.rb">
+      <file leaf-file-name="seeds.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.04731861">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <file leaf-file-name="dependencies.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/activesupport-4.0.0/lib/active_support/dependencies.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="12" selection-start="342" selection-end="342" vertical-scroll-proportion="0.16363636">
+            <state line="181" column="0" selection-start="6938" selection-end="6938" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registrations_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/devise-3.1.1/app/controllers/devise/registrations_controller.rb">
+      <file leaf-file-name="base.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/activerecord-deprecated_finders-1.0.3/lib/active_record/deprecated_finders/base.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="0" selection-start="3338" selection-end="3338" vertical-scroll-proportion="0.0">
+            <state line="66" column="0" selection-start="1921" selection-end="1921" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="merchant.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/merchant.rb">
+      <file leaf-file-name="simple_form.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/initializers/simple_form.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="55" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sessions_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/devise-3.1.1/app/controllers/devise/sessions_controller.rb">
+      <file leaf-file-name="form_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-4.0.0/lib/action_view/helpers/form_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+            <state line="769" column="0" selection-start="34441" selection-end="34441" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-4.0.0/lib/action_view/helpers/tags/base.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -170,30 +298,36 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20131011010909_create_purchases.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20131013194846_create_gifts.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
-        <option value="$PROJECT_DIR$/db/migrate/20131018010857_add_name_to_users.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20131011003722_devise_create_users.rb" />
-        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
-        <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/devise-3.1.1/app/controllers/devise/registrations_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/index.json.jbuilder" />
+        <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/users/show.json.jbuilder" />
+        <option value="$PROJECT_DIR$/app/controllers/roles_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$PROJECT_DIR$/lib/user_sanitizer.rb" />
-        <option value="$PROJECT_DIR$/config/initializers/sanitizers.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/models/merchant.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/_form.html.erb" />
+        <option value="$PROJECT_DIR$/config/locales/models/user/en.yml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/users/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/users/_fields.html.erb" />
+        <option value="$PROJECT_DIR$/config/initializers/simple_form.rb" />
       </list>
     </option>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="13" />
     <option name="y" value="22" />
-    <option name="width" value="1267" />
-    <option name="height" value="698" />
+    <option name="width" value="1257" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -221,6 +355,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -229,90 +364,6 @@
               <option name="myItemId" value="gifty" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gifty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v3.1.1, RVM: ruby-1.9.3-p385) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gifty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v3.1.1, RVM: ruby-1.9.3-p385) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gifty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v3.1.1, RVM: ruby-1.9.3-p385) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gifty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise (v3.1.1, RVM: ruby-1.9.3-p385) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -334,7 +385,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,44 +400,160 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gifty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gifty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
+    <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/views/users" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config/locales/models/user" />
+    </key>
   </component>
   <component name="RunManager" selected="Rails.Development: gifty">
+    <configuration default="false" name="db:create" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="gifty" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="development" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:create" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="gifty" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="development" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Rails console: gifty" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
+      <module name="gifty" />
+      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/bin/rails" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="console" />
+      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="true" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="seeds" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="gifty" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/db" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/db/seeds.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="db:seed" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="gifty" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="local" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:seed" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
       <module name="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -513,9 +680,30 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
+    <configuration default="true" type="IrbRunConfigurationType" factoryName="IRB console">
+      <module name="" />
+      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
       <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
       <method />
@@ -630,14 +818,45 @@
       <ConfigurationWrapper RunnerId="RubyDebugRunner" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="9">
       <item index="0" class="java.lang.String" itemvalue="Rake.test" />
       <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: gifty" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: gifty" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.db:create" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="6" class="java.lang.String" itemvalue="IRB console.Rails console: gifty" />
+      <item index="7" class="java.lang.String" itemvalue="Ruby.seeds" />
+      <item index="8" class="java.lang.String" itemvalue="Rake.db:seed" />
     </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Rake.db:seed" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.seeds" />
+        <item index="2" class="java.lang.String" itemvalue="IRB console.Rails console: gifty" />
+        <item index="3" class="java.lang.String" itemvalue="Rake.db:migrate" />
+        <item index="4" class="java.lang.String" itemvalue="Rake.db:create" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="11aa6116-37c4-463a-a15f-afee687afc79" name="Default" comment="" />
@@ -647,23 +866,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="22" width="1267" height="698" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1257" height="774" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5108153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2956593" sideWeight="0.60066557" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933443" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31874484" sideWeight="0.562777" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43722305" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286219" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4239291" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5096012" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21142857" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -731,133 +950,130 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/devise-3.1.1/app/controllers/devise/registrations_controller.rb</url>
-          <line>97</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/devise-3.1.1/app/controllers/devise/sessions_controller.rb</url>
-          <line>7</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/lib/user_sanitizer.rb</url>
           <line>4</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/db/seeds.rb</url>
+          <line>12</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/db/seeds.rb</url>
+          <line>17</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/simple_form-3.0.0/lib/simple_form/inputs/text_input.rb</url>
+          <line>6</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="14" />
+      <option name="time" value="37" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/devise-3.1.1/app/helpers/devise_helper.rb">
+    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="23" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/models/user/en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="44" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/simple_form-3.0.0/lib/simple_form/form_builder.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="221" column="0" selection-start="8862" selection-end="8862" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/devise-3.1.1/lib/devise/controllers/helpers.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/better_errors-0.8.0/lib/better_errors/core_ext/exception.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="39" selection-start="3160" selection-end="3248" vertical-scroll-proportion="0.0">
+        <state line="13" column="0" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/i18n-0.6.5/lib/i18n.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="0" selection-start="6174" selection-end="6174" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-4.0.0/lib/action_view/helpers/tags/base.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="56" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/devise-3.1.1/lib/devise/parameter_sanitizer.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/actionpack-4.0.0/lib/action_view/helpers/form_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1138" selection-end="1223" vertical-scroll-proportion="0.0">
+        <state line="769" column="0" selection-start="34441" selection-end="34441" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="18" selection-start="1201" selection-end="1214" vertical-scroll-proportion="0.0">
+        <state line="4" column="0" selection-start="91" selection-end="124" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/users/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.0">
+        <state line="5" column="24" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/sanitizers.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="57" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/purchases_controller.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/activerecord-deprecated_finders-1.0.3/lib/active_record/deprecated_finders/base.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="66" column="0" selection-start="1921" selection-end="1921" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/activesupport-4.0.0/lib/active_support/dependencies.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="19" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
+        <state line="181" column="0" selection-start="6938" selection-end="6938" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/devise-3.1.1/app/controllers/devise/sessions_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/initializers/simple_form.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/user_sanitizer.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/users/_fields.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
+        <state line="9" column="44" selection-start="444" selection-end="444" vertical-scroll-proportion="-5.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/devise_invitable-1.3.0/app/controllers/devise_invitable/registrations_controller.rb">
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/devise-3.1.1/app/controllers/devise/registrations_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="0" selection-start="3338" selection-end="3338" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p385/lib/ruby/1.9.1/webrick/server.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="190" column="0" selection-start="5127" selection-end="5174" vertical-scroll-proportion="0.33225808">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/merchant.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="55" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="342" selection-end="342" vertical-scroll-proportion="0.16363636">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.04731861">
           <folding />
         </state>
       </provider>

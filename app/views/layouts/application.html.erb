@@ -14,6 +14,14 @@
       Logged in as <strong><%= current_user.email %></strong>.
       <%= link_to 'Edit profile', edit_user_registration_path %> |
       <%= link_to "Logout", destroy_user_session_path, method: :delete %>
+      <br>
+      <%= link_to 'Users', users_path %> |
+      <%= link_to 'Gifts', gifts_path %> |
+      <%= link_to 'Merchants', merchants_path %> |
+      <%= link_to 'Purchases', purchases_path %> |
+      <%= link_to 'User Roles', roles_path %>
+
+
   <% else %>
       <%= link_to "Sign up", new_user_registration_path %> |
       <%= link_to "Login", new_user_session_path %>
