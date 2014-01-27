@@ -1,0 +1,16 @@
+<% title "Merchant Type" %>
+
+<p>
+  <strong>Name:</strong>
+  <%= @merchant_type.name %>
+</p>
+<p>
+  <strong>Key:</strong>
+  <%= @merchant_type.key %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_merchant_type_path(@merchant_type) %> |
+  <%= link_to "Destroy", @merchant_type, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", merchant_types_path %>
+</p>

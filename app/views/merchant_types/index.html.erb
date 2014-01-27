@@ -1,0 +1,19 @@
+<% title "Merchant Types" %>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Key</th>
+  </tr>
+  <% for merchant_type in @merchant_types %>
+    <tr>
+      <td><%= merchant_type.name %></td>
+      <td><%= merchant_type.key %></td>
+      <td><%= link_to "Show", merchant_type %></td>
+      <td><%= link_to "Edit", edit_merchant_type_path(merchant_type) %></td>
+      <td><%= link_to "Destroy", merchant_type, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Merchant Type", new_merchant_type_path %></p>

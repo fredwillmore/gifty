@@ -1,0 +1,101 @@
+<style type="text/css">
+    html, body, #map_canvas {
+        margin: 0;
+        padding: 0;
+        height: 80%;
+    }
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=true"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $.favoritesMap = new Object();
+        $.favoritesMap['map_canvas'] = document.getElementById('map_canvas');
+        $.favoritesMap['map_options'] = {
+            center: new google.maps.LatLng(44.5403, -78.5463),
+            zoom: 12,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            draggable: true
+        }
+        $.favoritesMap['map'] = new google.maps.Map($.favoritesMap['map_canvas'], $.favoritesMap['map_options']);
+        $.favoritesMap['markers'] = new Object;
+//        google.maps.event.addDomListener(map, 'dragend', getLocalMerchants);
+        google.maps.event.addDomListener($.favoritesMap['map'], 'resize', getLocalMerchants);
+        google.maps.event.addDomListener($.favoritesMap['map'], 'zoom_changed', getLocalMerchants);
+        google.maps.event.addDomListener($.favoritesMap['map'], 'center_changed', getLocalMerchants);
+
+        if(navigator.geolocation) {
+            browserSupportFlag = true;
+            navigator.geolocation.getCurrentPosition(function(position) {
+                initialLocation = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+                $.favoritesMap['map'].setCenter(initialLocation);
+            }, function() {
+                handleNoGeolocation(browserSupportFlag);
+            }, {timeout:10000});
+        }
+        // Browser doesn't support Geolocation
+        else {
+            browserSupportFlag = false;
+            handleNoGeolocation(browserSupportFlag);
+        }
+
+        function handleNoGeolocation(errorFlag) {
+            if (errorFlag == true) {
+                alert("Geolocation service failed.");
+//                initialLocation = newyork;
+            } else {
+                alert("Your browser doesn't support geolocation. We've placed you in Siberia.");
+//                initialLocation = siberia;
+            }
+            $.favoritesMap['map'].setCenter(initialLocation);
+        }
+
+        function getLocalMerchants() {
+            clearTimeout($.favoritesMap['timeoutResize']);
+            bounds = this.getBounds();
+            $.favoritesMap['timeoutResize'] = setTimeout(function(){
+                ne = bounds.getNorthEast();
+                sw = bounds.getSouthWest();
+                if($.favoritesMap['request']) {
+                    $.favoritesMap['request'].abort();
+                }
+                $.favoritesMap['request'] = $.ajax({
+                    type: 'GET',
+                    url: '/get_merchants_by_area',
+                    dataType: 'json',
+                    data: {
+                        n: ne.lat(),
+                        s: sw.lat(),
+                        e: ne.lng(),
+                        w: sw.lng()
+                    },
+                    success: function(data){
+                        $.each($.favoritesMap['markers'], function(index, value) {
+                            $.favoritesMap['markers'][index].setMap(null);
+                        });
+                        $.favoritesMap['markers'] = new Object;
+                        $.each(data, function( index, value ) {
+                            $.favoritesMap['markers'][value['id']] = new google.maps.Marker({
+                                map: $.favoritesMap['map'],
+                                position: new google.maps.LatLng(value['latitude'], value['longitude']),
+                                icon: '<%= image_path "icons/" %>' + value['merchant_type_icon_keys'][0] + '.png'
+    //                            icon: myIcon
+                            });
+                        });
+                    }
+                });
+            },250); // TODO: this method of throttling the ajax calls to get_merchants_by_area introduces a 250ms lag - I'd prefer to avoid
+//          REMEMBER: map icons came from http://mapicons.nicolasmollet.com/
+//          make sure there aren't any legal issues w using them
+        }
+    });
+
+
+</script>
+
+<h1>Editing user favorites</h1>
+
+<div id="map_canvas"></div>
+
+<%= link_to 'Show', @user %> |
+<%= link_to 'Back', users_path %>

@@ -1,0 +1,2615 @@
+merchants:
+- :name: Blue Moon Camera & Machine
+  :merchant_type:
+  - electronics_store
+  - establishment
+  - store
+  :lat: 45.589835
+  :lng: -122.753288
+- :name: Division Do It Best Hardware Inc
+  :merchant_type:
+  - establishment
+  - hardware_store
+  - store
+  :lat: 45.504707
+  :lng: -122.624906
+- :name: Widmer Brothers Brewing Company
+  :merchant_type:
+  - establishment
+  - liquor_store
+  - store
+  :lat: 45.540701
+  :lng: -122.676054
+- :name: Nordstrom Lloyd Center
+  :merchant_type:
+  - clothing_store
+  - department_store
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.532386
+  :lng: -122.656036
+- :name: Nordstrom Downtown Portland
+  :merchant_type:
+  - department_store
+  - establishment
+  - store
+  :lat: 45.519148
+  :lng: -122.680336
+- :name: Petco Animal Supplies - Gresham
+  :merchant_type:
+  - establishment
+  - pet_store
+  - store
+  :lat: 45.499732
+  :lng: -122.41247
+- :name: Aquila Art Glass
+  :merchant_type:
+  - art_gallery
+  - establishment
+  :lat: 45.585001
+  :lng: -122.684598
+- :name: New Seasons Market - Cedar Hills Crossing
+  :merchant_type:
+  - establishment
+  - food
+  - grocery_or_supermarket
+  - liquor_store
+  - store
+  :lat: 45.494392
+  :lng: -122.812806
+- :name: Green Dragon
+  :merchant_type:
+  - bar
+  - establishment
+  - food
+  - restaurant
+  :lat: 45.516279
+  :lng: -122.656619
+- :name: Barnes & Noble
+  :merchant_type:
+  - book_store
+  - establishment
+  - store
+  :lat: 45.533471
+  :lng: -122.653824
+- :name: Dick's Sporting Goods
+  :merchant_type:
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.453873
+  :lng: -122.577095
+- :name: EXIT Real World
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.524284
+  :lng: -122.698273
+- :name: GiGi Salon & Spa
+  :merchant_type:
+  - beauty_salon
+  - establishment
+  - hair_care
+  - spa
+  :lat: 45.515347
+  :lng: -122.682214
+- :name: The Home Depot - Jantzen Beach
+  :merchant_type:
+  - establishment
+  - furniture_store
+  - general_contractor
+  - home_goods_store
+  - store
+  :lat: 45.611909
+  :lng: -122.686778
+- :name: PetSmart Beaverton
+  :merchant_type:
+  - establishment
+  - pet_store
+  - store
+  :lat: 45.501403
+  :lng: -122.80402
+- :name: Fred Meyer
+  :merchant_type:
+  - department_store
+  - establishment
+  - store
+  :lat: 45.527845
+  :lng: -122.595306
+- :name: East Side Athletic Club
+  :merchant_type:
+  - beauty_salon
+  - establishment
+  - gym
+  - hair_care
+  - health
+  :lat: 45.395362
+  :lng: -122.614714
+- :name: Buffalo Exchange
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - store
+  :lat: 45.522782
+  :lng: -122.681998
+- :name: Bike Gallery
+  :merchant_type:
+  - bicycle_store
+  - establishment
+  - store
+  :lat: 45.540812
+  :lng: -122.608457
+- :name: Hobnob Grille
+  :merchant_type:
+  - bar
+  - establishment
+  - food
+  - restaurant
+  :lat: 45.517078
+  :lng: -122.629724
+- :name: Victoria's Secret - Washington Square
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - store
+  :lat: 45.450538
+  :lng: -122.780923
+- :name: Zupan's Markets
+  :merchant_type:
+  - liquor_store
+  - bakery
+  - grocery_or_supermarket
+  - store
+  - food
+  - establishment
+  :lat: 45.47224
+  :lng: -122.672246
+- :name: Nordstrom Lloyd Center
+  :merchant_type:
+  - clothing_store
+  - department_store
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.532386
+  :lng: -122.656036
+- :name: Pearl Hardware
+  :merchant_type:
+  - establishment
+  - hardware_store
+  - home_goods_store
+  - store
+  :lat: 45.52668
+  :lng: -122.688
+- :name: BURLINGTON COAT FACTORY
+  :merchant_type:
+  - clothing_store
+  - furniture_store
+  - department_store
+  - general_contractor
+  - home_goods_store
+  - store
+  - establishment
+  :lat: 45.446722
+  :lng: -122.578323
+- :name: hip
+  :merchant_type:
+  - establishment
+  - furniture_store
+  - general_contractor
+  - home_goods_store
+  - store
+  :lat: 45.535935
+  :lng: -122.702977
+- :name: Fresh Fruit Studio/Gallery
+  :merchant_type:
+  - art_gallery
+  - establishment
+  :lat: 45.516524
+  :lng: -122.629109
+- :name: Clear Creek Distillery
+  :merchant_type:
+  - establishment
+  - food
+  - liquor_store
+  - store
+  :lat: 45.537733
+  :lng: -122.700675
+- :name: Fred Meyer
+  :merchant_type:
+  - pharmacy
+  - home_goods_store
+  - department_store
+  - health
+  - finance
+  - florist
+  - grocery_or_supermarket
+  - food
+  - store
+  - establishment
+  :lat: 45.470367
+  :lng: -122.690211
+- :name: Mother's Bistro & Bar
+  :merchant_type:
+  - bar
+  - establishment
+  - food
+  - restaurant
+  :lat: 45.519974
+  :lng: -122.673671
+- :name: Urban Outfitters Portland
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - store
+  :lat: 45.524223
+  :lng: -122.698979
+- :name: Pets on Broadway
+  :merchant_type:
+  - establishment
+  - pet_store
+  - store
+  :lat: 45.535056
+  :lng: -122.637003
+- :name: Nordstrom Rack Downtown Portland
+  :merchant_type:
+  - clothing_store
+  - department_store
+  - establishment
+  - store
+  :lat: 45.518255
+  :lng: -122.675203
+- :name: REI
+  :merchant_type:
+  - bicycle_store
+  - clothing_store
+  - establishment
+  - store
+  :lat: 45.528706
+  :lng: -122.685503
+- :name: Aerosoles
+  :merchant_type:
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.517799
+  :lng: -122.677664
+- :name: Petco Animal Supplies
+  :merchant_type:
+  - establishment
+  - pet_store
+  - store
+  :lat: 45.612568
+  :lng: -122.685046
+- :name: Cargo
+  :merchant_type:
+  - establishment
+  - furniture_store
+  - general_contractor
+  - home_goods_store
+  - store
+  :lat: 45.525606
+  :lng: -122.68414
+- :name: Nike Factory Store
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.541875
+  :lng: -122.661416
+- :name: Bishops Barbershop
+  :merchant_type:
+  - establishment
+  - hair_care
+  - health
+  :lat: 45.515511
+  :lng: -122.684909
+- :name: Sears
+  :merchant_type:
+  - clothing_store
+  - home_goods_store
+  - car_repair
+  - department_store
+  - store
+  - health
+  - establishment
+  :lat: 45.532437
+  :lng: -122.6515
+- :name: U.S. Outdoor Store
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - store
+  :lat: 45.522436
+  :lng: -122.678079
+- :name: Portland Institute for Contemporary Art
+  :merchant_type:
+  - art_gallery
+  - establishment
+  :lat: 45.521882
+  :lng: -122.681676
+- :name: Kate Spade
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - home_goods_store
+  - shoe_store
+  - store
+  :lat: 45.518182
+  :lng: -122.67742
+- :name: Things From Another World
+  :merchant_type:
+  - book_store
+  - establishment
+  - store
+  :lat: 45.535055
+  :lng: -122.635583
+- :name: Newspace Center for Photography
+  :merchant_type:
+  - art_gallery
+  - establishment
+  :lat: 45.511142
+  :lng: -122.655597
+- :name: Holocene
+  :merchant_type:
+  - bar
+  - establishment
+  - night_club
+  :lat: 45.517585
+  :lng: -122.655361
+- :name: International Rose Test Garden
+  :merchant_type:
+  - establishment
+  - home_goods_store
+  - park
+  - store
+  :lat: 45.518496
+  :lng: -122.705612
+- :name: Best Buy
+  :merchant_type:
+  - electronics_store
+  - establishment
+  - store
+  :lat: 45.453369
+  :lng: -122.576753
+- :name: Walmart
+  :merchant_type:
+  - department_store
+  - hardware_store
+  - grocery_or_supermarket
+  - food
+  - store
+  - establishment
+  :lat: 45.450375
+  :lng: -122.57509
+- :name: Urban Waxx
+  :merchant_type:
+  - beauty_salon
+  - establishment
+  - hair_care
+  - store
+  :lat: 45.530522
+  :lng: -122.689388
+- :name: New Seasons Market - Progress Ridge
+  :merchant_type:
+  - liquor_store
+  - health
+  - grocery_or_supermarket
+  - food
+  - store
+  - establishment
+  :lat: 45.430446
+  :lng: -122.829287
+- :name: Portland Brewing Company Taproom
+  :merchant_type:
+  - establishment
+  - food
+  - restaurant
+  :lat: 45.541378
+  :lng: -122.713141
+- :name: The Modern Man Barber Shop
+  :merchant_type:
+  - establishment
+  - hair_care
+  - health
+  :lat: 45.55933
+  :lng: -122.642805
+- :name: CompRite Computer Repair - Portland
+  :merchant_type:
+  - electronics_store
+  - establishment
+  - store
+  :lat: 45.48283
+  :lng: -122.579484
+- :name: Walmart
+  :merchant_type:
+  - department_store
+  - hardware_store
+  - grocery_or_supermarket
+  - food
+  - store
+  - establishment
+  :lat: 45.450375
+  :lng: -122.57509
+- :name: The Home Depot - S Beaverton
+  :merchant_type:
+  - establishment
+  - home_goods_store
+  - store
+  :lat: 45.487879
+  :lng: -122.791187
+- :name: Pok Pok Restaurant
+  :merchant_type:
+  - establishment
+  - food
+  - restaurant
+  :lat: 45.504691
+  :lng: -122.632169
+- :name: Grayling
+  :merchant_type:
+  - establishment
+  - jewelry_store
+  - store
+  :lat: 45.519168
+  :lng: -122.664283
+- :name: Doug Fir Restaurant
+  :merchant_type:
+  - bar
+  - establishment
+  - food
+  - night_club
+  - restaurant
+  :lat: 45.522563
+  :lng: -122.65686
+- :name: Multnomah County Animal Services
+  :merchant_type:
+  - establishment
+  - local_government_office
+  - pet_store
+  - store
+  :lat: 45.54263
+  :lng: -122.404528
+- :name: Zales - The Diamond Store
+  :merchant_type:
+  - establishment
+  - jewelry_store
+  - store
+  :lat: 45.657967
+  :lng: -122.583531
+- :name: Pier 1 Imports
+  :merchant_type:
+  - establishment
+  - furniture_store
+  - general_contractor
+  - home_goods_store
+  - store
+  :lat: 45.484413
+  :lng: -122.675899
+- :name: Staples
+  :merchant_type:
+  - establishment
+  - furniture_store
+  - general_contractor
+  - home_goods_store
+  - store
+  :lat: 45.527511
+  :lng: -122.536671
+- :name: Burlington Coat Factory
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.454836
+  :lng: -122.786475
+- :name: Doubletree by Hilton Portland
+  :merchant_type:
+  - establishment
+  - food
+  - lodging
+  - restaurant
+  :lat: 45.530772
+  :lng: -122.655575
+- :name: Patagonia
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - store
+  :lat: 45.528101
+  :lng: -122.680624
+- :name: The Home Depot - Tigard
+  :merchant_type:
+  - department_store
+  - establishment
+  - hardware_store
+  - home_goods_store
+  - store
+  :lat: 45.413131
+  :lng: -122.74594
+- :name: Lowe's Home Improvement
+  :merchant_type:
+  - establishment
+  - hardware_store
+  - home_goods_store
+  - store
+  :lat: 45.424151
+  :lng: -122.583227
+- :name: Wigland
+  :merchant_type:
+  - establishment
+  - hair_care
+  - store
+  :lat: 45.535147
+  :lng: -122.655191
+- :name: Best Buy
+  :merchant_type:
+  - department_store
+  - electronics_store
+  - establishment
+  - store
+  :lat: 45.575222
+  :lng: -122.561779
+- :name: Parkrose Hardware
+  :merchant_type:
+  - establishment
+  - hardware_store
+  - home_goods_store
+  - store
+  :lat: 45.620533
+  :lng: -122.502167
+- :name: Rejuvenation
+  :merchant_type:
+  - furniture_store
+  - hardware_store
+  - general_contractor
+  - home_goods_store
+  - store
+  - establishment
+  :lat: 45.514903
+  :lng: -122.660644
+- :name: Kenny & Zuke's Delicatessen
+  :merchant_type:
+  - establishment
+  - food
+  - restaurant
+  :lat: 45.52217
+  :lng: -122.681905
+- :name: SCRAP
+  :merchant_type:
+  - art_gallery
+  - establishment
+  - store
+  :lat: 45.544073
+  :lng: -122.661763
+- :name: Dan & Louis Oyster Bar
+  :merchant_type:
+  - establishment
+  - food
+  - restaurant
+  :lat: 45.522495
+  :lng: -122.672606
+- :name: Grocery Outlet
+  :merchant_type:
+  - establishment
+  - food
+  - grocery_or_supermarket
+  - liquor_store
+  - store
+  :lat: 45.535925
+  :lng: -122.617421
+- :name: Furever Pets
+  :merchant_type:
+  - establishment
+  - pet_store
+  - store
+  :lat: 45.534911
+  :lng: -122.646505
+- :name: Marshalls
+  :merchant_type:
+  - department_store
+  - establishment
+  - store
+  :lat: 45.533722
+  :lng: -122.653505
+- :name: Free Geek
+  :merchant_type:
+  - electronics_store
+  - establishment
+  - store
+  :lat: 45.510375
+  :lng: -122.655819
+- :name: George Morlan Plumbing Services
+  :merchant_type:
+  - establishment
+  - hardware_store
+  - store
+  :lat: 45.494459
+  :lng: -122.606123
+- :name: Continental Loan & Jewelry Co
+  :merchant_type:
+  - establishment
+  - finance
+  - jewelry_store
+  - store
+  :lat: 45.662875
+  :lng: -122.564228
+- :name: Pyramid Brewing Company
+  :merchant_type:
+  - liquor_store
+  - store
+  - bar
+  - restaurant
+  - food
+  - establishment
+  :lat: 45.54152
+  :lng: -122.713646
+- :name: Bonfire Lounge
+  :merchant_type:
+  - bar
+  - establishment
+  - night_club
+  :lat: 45.519398
+  :lng: -122.636698
+- :name: Imelda's Shoes and Louie's Shoes for Men
+  :merchant_type:
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.511974
+  :lng: -122.629091
+- :name: Kmart
+  :merchant_type:
+  - clothing_store
+  - department_store
+  - electronics_store
+  - establishment
+  - store
+  :lat: 45.555162
+  :lng: -122.535496
+- :name: The MacPac
+  :merchant_type:
+  - electronics_store
+  - establishment
+  - store
+  :lat: 45.56153
+  :lng: -122.535586
+- :name: She Bop
+  :merchant_type:
+  - book_store
+  - establishment
+  - store
+  :lat: 45.549657
+  :lng: -122.675875
+- :name: Great Clips Portland State University
+  :merchant_type:
+  - beauty_salon
+  - establishment
+  - hair_care
+  :lat: 45.509562
+  :lng: -122.684761
+- :name: Elephants Delicatessen
+  :merchant_type:
+  - liquor_store
+  - store
+  - meal_takeaway
+  - cafe
+  - bar
+  - restaurant
+  - food
+  - establishment
+  :lat: 45.523886
+  :lng: -122.696477
+- :name: Tiffany & Co.
+  :merchant_type:
+  - establishment
+  - jewelry_store
+  - store
+  :lat: 45.517641
+  :lng: -122.67671
+- :name: ! 'Portland State Housing: Stephen Epler'
+  :merchant_type:
+  - art_gallery
+  - establishment
+  - school
+  :lat: 45.51303
+  :lng: -122.687892
+- :name: Ann Taylor
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.517652
+  :lng: -122.678041
+- :name: Fat Tire Farm
+  :merchant_type:
+  - bicycle_store
+  - establishment
+  - store
+  :lat: 45.535264
+  :lng: -122.707009
+- :name: Office Depot
+  :merchant_type:
+  - furniture_store
+  - electronics_store
+  - general_contractor
+  - home_goods_store
+  - store
+  - establishment
+  :lat: 45.520342
+  :lng: -122.67808
+- :name: Jo-Ann Fabric and Craft
+  :merchant_type:
+  - establishment
+  - home_goods_store
+  - store
+  :lat: 45.49316
+  :lng: -122.57643
+- :name: Buffalo Exchange
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - store
+  :lat: 45.512414
+  :lng: -122.625778
+- :name: Schoolhouse Electric & Supply Co.
+  :merchant_type:
+  - establishment
+  - furniture_store
+  - general_contractor
+  - home_goods_store
+  - store
+  :lat: 45.541509
+  :lng: -122.697014
+- :name: Petco Animal Supplies - Portland
+  :merchant_type:
+  - establishment
+  - pet_store
+  - store
+  :lat: 45.504031
+  :lng: -122.514967
+- :name: A Better Cycle
+  :merchant_type:
+  - bicycle_store
+  - establishment
+  - store
+  :lat: 45.504733
+  :lng: -122.641973
+- :name: The Side Street Tavern
+  :merchant_type:
+  - bar
+  - establishment
+  :lat: 45.516705
+  :lng: -122.629475
+- :name: Goods BMX
+  :merchant_type:
+  - bicycle_store
+  - establishment
+  - store
+  :lat: 45.543351
+  :lng: -122.661356
+- :name: Macy's
+  :merchant_type:
+  - clothing_store
+  - department_store
+  - establishment
+  - store
+  :lat: 45.519418
+  :lng: -122.677637
+- :name: Seven Corners Cycle
+  :merchant_type:
+  - bicycle_store
+  - establishment
+  - store
+  :lat: 45.499741
+  :lng: -122.644538
+- :name: Marx Jewelers
+  :merchant_type:
+  - establishment
+  - jewelry_store
+  - store
+  :lat: 45.520961
+  :lng: -122.680234
+- :name: Luke's Frame Shop
+  :merchant_type:
+  - art_gallery
+  - establishment
+  - store
+  :lat: 45.516512
+  :lng: -122.637878
+- :name: Backyard Bird Shop
+  :merchant_type:
+  - establishment
+  - home_goods_store
+  - pet_store
+  - store
+  :lat: 45.655513
+  :lng: -122.589798
+- :name: Future Dreams
+  :merchant_type:
+  - book_store
+  - establishment
+  - store
+  :lat: 45.523261
+  :lng: -122.646914
+- :name: Powell's City of Books
+  :merchant_type:
+  - book_store
+  - establishment
+  - store
+  :lat: 45.523127
+  :lng: -122.681322
+- :name: Rejuvenation
+  :merchant_type:
+  - furniture_store
+  - hardware_store
+  - general_contractor
+  - home_goods_store
+  - store
+  - establishment
+  :lat: 45.514903
+  :lng: -122.660644
+- :name: The Blue Monk
+  :merchant_type:
+  - bar
+  - establishment
+  - food
+  - night_club
+  - restaurant
+  :lat: 45.51654
+  :lng: -122.629936
+- :name: Broadway Books
+  :merchant_type:
+  - book_store
+  - establishment
+  - store
+  :lat: 45.534927
+  :lng: -122.648042
+- :name: Best Buy
+  :merchant_type:
+  - electronics_store
+  - establishment
+  - home_goods_store
+  - store
+  :lat: 45.452473
+  :lng: -122.78477
+- :name: Tiga
+  :merchant_type:
+  - art_gallery
+  - bar
+  - establishment
+  :lat: 45.555536
+  :lng: -122.650266
+- :name: Wet Spot Tropical Fish
+  :merchant_type:
+  - aquarium
+  - establishment
+  - home_goods_store
+  - pet_store
+  - store
+  :lat: 45.536436
+  :lng: -122.618505
+- :name: The Heathman Restaurant & Bar
+  :merchant_type:
+  - establishment
+  - food
+  - restaurant
+  :lat: 45.517192
+  :lng: -122.68098
+- :name: Petco Animal Supplies - Lake Oswego
+  :merchant_type:
+  - establishment
+  - pet_store
+  - store
+  :lat: 45.414273
+  :lng: -122.663542
+- :name: Paxton Gate
+  :merchant_type:
+  - art_gallery
+  - establishment
+  - home_goods_store
+  - jewelry_store
+  - store
+  :lat: 45.553943
+  :lng: -122.6754
+- :name: Powell's Books Inc
+  :merchant_type:
+  - book_store
+  - establishment
+  - store
+  :lat: 45.512155
+  :lng: -122.625325
+- :name: Lizard Lounge
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.527982
+  :lng: -122.684961
+- :name: Sizzle Pie (East Burnside)
+  :merchant_type:
+  - meal_takeaway
+  - bar
+  - restaurant
+  - meal_delivery
+  - food
+  - establishment
+  :lat: 45.52282
+  :lng: -122.659121
+- :name: EXIT Real World
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.524284
+  :lng: -122.698273
+- :name: Nordstrom Lloyd Center
+  :merchant_type:
+  - clothing_store
+  - department_store
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.532386
+  :lng: -122.656036
+- :name: Portland Art Museum
+  :merchant_type:
+  - art_gallery
+  - establishment
+  - museum
+  :lat: 45.516276
+  :lng: -122.68356
+- :name: AT&T
+  :merchant_type:
+  - electronics_store
+  - establishment
+  - store
+  :lat: 45.516476
+  :lng: -122.563815
+- :name: Pedal Bike Tours
+  :merchant_type:
+  - bicycle_store
+  - establishment
+  - store
+  :lat: 45.521664
+  :lng: -122.672724
+- :name: Advance Camera Inc
+  :merchant_type:
+  - electronics_store
+  - establishment
+  - store
+  :lat: 45.485998
+  :lng: -122.76064
+- :name: ! 'Apple Store: Pioneer Place'
+  :merchant_type:
+  - electronics_store
+  - establishment
+  - store
+  :lat: 45.51844
+  :lng: -122.67731
+- :name: The Shutterbug
+  :merchant_type:
+  - electronics_store
+  - establishment
+  - store
+  :lat: 45.520655
+  :lng: -122.679101
+- :name: The Home Depot
+  :merchant_type:
+  - department_store
+  - establishment
+  - hardware_store
+  - home_goods_store
+  - store
+  :lat: 45.620256
+  :lng: -122.479977
+- :name: The North Face
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - store
+  :lat: 45.524287
+  :lng: -122.683299
+- :name: The Home Depot - E Portland Mall
+  :merchant_type:
+  - department_store
+  - establishment
+  - hardware_store
+  - home_goods_store
+  - store
+  :lat: 45.516635
+  :lng: -122.559998
+- :name: Furever Pets
+  :merchant_type:
+  - establishment
+  - pet_store
+  - store
+  :lat: 45.534911
+  :lng: -122.646505
+- :name: Consignment Northwest
+  :merchant_type:
+  - furniture_store
+  - jewelry_store
+  - general_contractor
+  - home_goods_store
+  - store
+  - establishment
+  :lat: 45.474729
+  :lng: -122.781662
+- :name: Pottery Barn
+  :merchant_type:
+  - establishment
+  - furniture_store
+  - general_contractor
+  - home_goods_store
+  - store
+  :lat: 45.524885
+  :lng: -122.698544
+- :name: Safeway
+  :merchant_type:
+  - liquor_store
+  - pharmacy
+  - department_store
+  - health
+  - florist
+  - grocery_or_supermarket
+  - food
+  - store
+  - establishment
+  :lat: 45.547636
+  :lng: -122.592109
+- :name: Walmart
+  :merchant_type:
+  - bakery
+  - department_store
+  - grocery_or_supermarket
+  - store
+  - food
+  - establishment
+  :lat: 45.4912
+  :lng: -122.575
+- :name: 21st Avenue Bicycles
+  :merchant_type:
+  - bicycle_store
+  - establishment
+  - store
+  :lat: 45.529419
+  :lng: -122.694434
+- :name: Alchemy Jeweler
+  :merchant_type:
+  - establishment
+  - jewelry_store
+  - store
+  :lat: 45.52999
+  :lng: -122.681911
+- :name: The Meadow
+  :merchant_type:
+  - establishment
+  - florist
+  - food
+  - liquor_store
+  - store
+  :lat: 45.549962
+  :lng: -122.675761
+- :name: Title Wave Used Bookstore
+  :merchant_type:
+  - book_store
+  - establishment
+  - store
+  :lat: 45.541819
+  :lng: -122.663076
+- :name: AT&T
+  :merchant_type:
+  - electronics_store
+  - establishment
+  - store
+  :lat: 45.51767
+  :lng: -122.675679
+- :name: The Home Depot - Beaverton
+  :merchant_type:
+  - establishment
+  - hardware_store
+  - home_goods_store
+  - store
+  :lat: 45.524009
+  :lng: -122.817219
+- :name: Lowe's
+  :merchant_type:
+  - establishment
+  - hardware_store
+  - home_goods_store
+  - store
+  :lat: 45.529905
+  :lng: -122.425409
+- :name: Stand Up Comedy
+  :merchant_type:
+  - book_store
+  - clothing_store
+  - establishment
+  - store
+  :lat: 45.523057
+  :lng: -122.657355
+- :name: Victoria's Secret - Pioneer Place
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.518394
+  :lng: -122.677414
+- :name: Hive Modern Design
+  :merchant_type:
+  - establishment
+  - furniture_store
+  - general_contractor
+  - home_goods_store
+  - store
+  :lat: 45.526486
+  :lng: -122.679789
+- :name: Paxton Gate
+  :merchant_type:
+  - art_gallery
+  - establishment
+  - home_goods_store
+  - jewelry_store
+  - store
+  :lat: 45.553943
+  :lng: -122.6754
+- :name: Columbia Sportswear Company
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - store
+  :lat: 45.517942
+  :lng: -122.68069
+- :name: Sanderson Safety Supply
+  :merchant_type:
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.514989
+  :lng: -122.662902
+- :name: ! 'Powell''s Books: Building 2'
+  :merchant_type:
+  - book_store
+  - establishment
+  - store
+  :lat: 45.523582
+  :lng: -122.681014
+- :name: New Seasons Market
+  :merchant_type:
+  - establishment
+  - food
+  - grocery_or_supermarket
+  - liquor_store
+  - store
+  :lat: 45.569076
+  :lng: -122.681629
+- :name: Triple Nickel Pub
+  :merchant_type:
+  - bar
+  - establishment
+  :lat: 45.516362
+  :lng: -122.626081
+- :name: Triple Nickel Pub
+  :merchant_type:
+  - bar
+  - establishment
+  :lat: 45.516364
+  :lng: -122.62608
+- :name: Rerun
+  :merchant_type:
+  - clothing_store
+  - furniture_store
+  - general_contractor
+  - home_goods_store
+  - store
+  - establishment
+  :lat: 45.548478
+  :lng: -122.658345
+- :name: Floating World Comics
+  :merchant_type:
+  - book_store
+  - establishment
+  - store
+  :lat: 45.523724
+  :lng: -122.674583
+- :name: Petco Animal Supplies - Vancouver
+  :merchant_type:
+  - establishment
+  - pet_store
+  - store
+  :lat: 45.619651
+  :lng: -122.554589
+- :name: Hanigan's
+  :merchant_type:
+  - bar
+  - establishment
+  :lat: 45.516362
+  :lng: -122.638421
+- :name: Akemi Salon
+  :merchant_type:
+  - beauty_salon
+  - establishment
+  - hair_care
+  :lat: 45.550242
+  :lng: -122.666518
+- :name: TWIST
+  :merchant_type:
+  - establishment
+  - jewelry_store
+  - store
+  :lat: 45.524299
+  :lng: -122.699465
+- :name: Costume Avenue
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - hair_care
+  - store
+  :lat: 45.486467
+  :lng: -122.807821
+- :name: Wired iRepair
+  :merchant_type:
+  - electronics_store
+  - establishment
+  - store
+  :lat: 45.529711
+  :lng: -122.689052
+- :name: Dosha Salon Spa Hawthorne
+  :merchant_type:
+  - beauty_salon
+  - establishment
+  - hair_care
+  :lat: 45.511968
+  :lng: -122.628795
+- :name: Fabric Depot
+  :merchant_type:
+  - establishment
+  - home_goods_store
+  - store
+  :lat: 45.517896
+  :lng: -122.536122
+- :name: The Hop & Vine
+  :merchant_type:
+  - liquor_store
+  - store
+  - meal_takeaway
+  - bar
+  - restaurant
+  - food
+  - establishment
+  :lat: 45.562618
+  :lng: -122.68678
+- :name: Petco Animal Supplies - Tualatin
+  :merchant_type:
+  - establishment
+  - pet_store
+  - store
+  :lat: 45.381361
+  :lng: -122.765891
+- :name: Fit Right Northwest
+  :merchant_type:
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.534004
+  :lng: -122.697965
+- :name: Camera Solutions
+  :merchant_type:
+  - electronics_store
+  - establishment
+  - store
+  :lat: 45.47781
+  :lng: -122.67244
+- :name: Fred Meyer
+  :merchant_type:
+  - bakery
+  - convenience_store
+  - pharmacy
+  - electronics_store
+  - jewelry_store
+  - health
+  - gas_station
+  - grocery_or_supermarket
+  - store
+  - food
+  - establishment
+  :lat: 45.503299
+  :lng: -122.512106
+- :name: Departure Restaurant + Lounge
+  :merchant_type:
+  - establishment
+  - food
+  - restaurant
+  :lat: 45.518927
+  :lng: -122.677806
+- :name: The Home Depot - NE Portland
+  :merchant_type:
+  - establishment
+  - hardware_store
+  - home_goods_store
+  - store
+  :lat: 45.571672
+  :lng: -122.544959
+- :name: Macy's
+  :merchant_type:
+  - shoe_store
+  - clothing_store
+  - home_goods_store
+  - department_store
+  - store
+  - establishment
+  :lat: 45.53166
+  :lng: -122.654578
+- :name: Cinetopia Progress Ridge 14
+  :merchant_type:
+  - bar
+  - restaurant
+  - art_gallery
+  - food
+  - movie_theater
+  - establishment
+  :lat: 45.430557
+  :lng: -122.831333
+- :name: Bike N Hike
+  :merchant_type:
+  - bicycle_store
+  - establishment
+  - store
+  :lat: 45.51998
+  :lng: -122.660575
+- :name: Nature's Pet Market
+  :merchant_type:
+  - establishment
+  - pet_store
+  - store
+  :lat: 45.523953
+  :lng: -122.694458
+- :name: T.J. Maxx
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.49087
+  :lng: -122.79913
+- :name: Meticon Bikes
+  :merchant_type:
+  - bicycle_store
+  - establishment
+  - store
+  :lat: 45.492427
+  :lng: -122.602091
+- :name: H&M
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - home_goods_store
+  - store
+  :lat: 45.517965
+  :lng: -122.676539
+- :name: Target
+  :merchant_type:
+  - department_store
+  - establishment
+  - health
+  - pharmacy
+  - store
+  :lat: 45.576924
+  :lng: -122.565186
+- :name: IKEA Portland
+  :merchant_type:
+  - establishment
+  - furniture_store
+  - general_contractor
+  - home_goods_store
+  - store
+  :lat: 45.571078
+  :lng: -122.553662
+- :name: Fred Meyer
+  :merchant_type:
+  - department_store
+  - jewelry_store
+  - grocery_or_supermarket
+  - food
+  - store
+  - establishment
+  :lat: 45.53417
+  :lng: -122.636224
+- :name: Best Buy
+  :merchant_type:
+  - electronics_store
+  - establishment
+  - home_goods_store
+  - store
+  :lat: 45.61493
+  :lng: -122.68615
+- :name: The Dr. Martens Store
+  :merchant_type:
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.523066
+  :lng: -122.680995
+- :name: Imelda's & Louie's Shoes
+  :merchant_type:
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.52521
+  :lng: -122.680831
+- :name: Best Buy
+  :merchant_type:
+  - electronics_store
+  - establishment
+  - home_goods_store
+  - store
+  :lat: 45.538921
+  :lng: -122.86271
+- :name: The Lovecraft Bar
+  :merchant_type:
+  - bar
+  - establishment
+  :lat: 45.519895
+  :lng: -122.660884
+- :name: Henry's Tavern
+  :merchant_type:
+  - establishment
+  - food
+  - restaurant
+  :lat: 45.523104
+  :lng: -122.683024
+- :name: Antique Alley
+  :merchant_type:
+  - clothing_store
+  - book_store
+  - furniture_store
+  - general_contractor
+  - home_goods_store
+  - store
+  - establishment
+  :lat: 45.537148
+  :lng: -122.619803
+- :name: Circa 33
+  :merchant_type:
+  - bar
+  - establishment
+  - food
+  - restaurant
+  :lat: 45.516386
+  :lng: -122.629903
+- :name: Oregon College of Art & Craft
+  :merchant_type:
+  - art_gallery
+  - establishment
+  - school
+  :lat: 45.511261
+  :lng: -122.761921
+- :name: HairM
+  :merchant_type:
+  - beauty_salon
+  - establishment
+  - hair_care
+  - health
+  - spa
+  :lat: 45.515226
+  :lng: -122.67528
+- :name: Le Bistro Montage
+  :merchant_type:
+  - establishment
+  - food
+  - restaurant
+  :lat: 45.517318
+  :lng: -122.662662
+- :name: Excalibur Books & Comics
+  :merchant_type:
+  - book_store
+  - establishment
+  - store
+  :lat: 45.511924
+  :lng: -122.640645
+- :name: Nordstrom Lloyd Center
+  :merchant_type:
+  - clothing_store
+  - department_store
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.532386
+  :lng: -122.656036
+- :name: Pro Photo Supply Inc
+  :merchant_type:
+  - electronics_store
+  - establishment
+  - store
+  :lat: 45.531
+  :lng: -122.690418
+- :name: ADX
+  :merchant_type:
+  - art_gallery
+  - establishment
+  :lat: 45.519841
+  :lng: -122.654749
+- :name: Dania
+  :merchant_type:
+  - establishment
+  - furniture_store
+  - general_contractor
+  - home_goods_store
+  - store
+  :lat: 45.536728
+  :lng: -122.621058
+- :name: Home Depot
+  :merchant_type:
+  - establishment
+  - hardware_store
+  - home_goods_store
+  - store
+  :lat: 45.520625
+  :lng: -122.404451
+- :name: New Deal Distillery and Tasting Room
+  :merchant_type:
+  - establishment
+  - food
+  - liquor_store
+  - store
+  :lat: 45.514198
+  :lng: -122.656456
+- :name: Cameron's Books & Magazines
+  :merchant_type:
+  - book_store
+  - establishment
+  - store
+  :lat: 45.520272
+  :lng: -122.674184
+- :name: Bare Bones Cafe
+  :merchant_type:
+  - meal_takeaway
+  - cafe
+  - bar
+  - restaurant
+  - food
+  - establishment
+  :lat: 45.516302
+  :lng: -122.63598
+- :name: Cyclepath
+  :merchant_type:
+  - bicycle_store
+  - establishment
+  - store
+  :lat: 45.540052
+  :lng: -122.66114
+- :name: Pearl Women's Center
+  :merchant_type:
+  - beauty_salon
+  - hospital
+  - doctor
+  - health
+  - hair_care
+  - establishment
+  :lat: 45.524164
+  :lng: -122.685018
+- :name: River City Bicycles
+  :merchant_type:
+  - bicycle_store
+  - establishment
+  - store
+  :lat: 45.517729
+  :lng: -122.661631
+- :name: Elk Rock, The Garden of the Bishop's Close
+  :merchant_type:
+  - establishment
+  - home_goods_store
+  - park
+  - store
+  :lat: 45.439611
+  :lng: -122.653256
+- :name: Petco
+  :merchant_type:
+  - establishment
+  - pet_store
+  - store
+  :lat: 45.490147
+  :lng: -122.798094
+- :name: Fred Meyer
+  :merchant_type:
+  - pharmacy
+  - department_store
+  - health
+  - grocery_or_supermarket
+  - food
+  - store
+  - establishment
+  :lat: 45.585664
+  :lng: -122.738275
+- :name: Portland U-Brew & Pub
+  :merchant_type:
+  - liquor_store
+  - store
+  - bar
+  - restaurant
+  - food
+  - establishment
+  :lat: 45.47732
+  :lng: -122.649337
+- :name: Petco Animal Supplies - Beaverton
+  :merchant_type:
+  - establishment
+  - pet_store
+  - store
+  :lat: 45.536567
+  :lng: -122.865748
+- :name: Halloween Warehouse
+  :merchant_type:
+  - beauty_salon
+  - clothing_store
+  - establishment
+  - store
+  :lat: 45.49024
+  :lng: -122.794796
+- :name: Elizabeth Leach Gallery
+  :merchant_type:
+  - art_gallery
+  - establishment
+  :lat: 45.526134
+  :lng: -122.680322
+- :name: Doug Fir Restaurant
+  :merchant_type:
+  - bar
+  - establishment
+  - food
+  - night_club
+  - restaurant
+  :lat: 45.522563
+  :lng: -122.65686
+- :name: Nike Portland
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.518989
+  :lng: -122.677326
+- :name: J.Crew
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.518532
+  :lng: -122.677242
+- :name: Waterfront Bicycle
+  :merchant_type:
+  - bicycle_store
+  - establishment
+  - store
+  :lat: 45.521456
+  :lng: -122.670844
+- :name: Parkrose Hardware
+  :merchant_type:
+  - establishment
+  - hardware_store
+  - store
+  :lat: 45.5595
+  :lng: -122.5538
+- :name: McMenamins Kennedy School
+  :merchant_type:
+  - establishment
+  - food
+  - lodging
+  - restaurant
+  :lat: 45.564431
+  :lng: -122.630337
+- :name: Gilt Vintage & Artisan Jewelry
+  :merchant_type:
+  - establishment
+  - jewelry_store
+  - store
+  :lat: 45.528046
+  :lng: -122.698377
+- :name: Target
+  :merchant_type:
+  - department_store
+  - establishment
+  - store
+  :lat: 45.51576
+  :lng: -122.560923
+- :name: Harbor Freight Tools
+  :merchant_type:
+  - establishment
+  - hardware_store
+  - store
+  :lat: 45.508603
+  :lng: -122.782752
+- :name: Silver Lining Jewelry & Loan
+  :merchant_type:
+  - establishment
+  - finance
+  - jewelry_store
+  - store
+  :lat: 45.526184
+  :lng: -122.644204
+- :name: Multnomah University
+  :merchant_type:
+  - book_store
+  - establishment
+  - school
+  - store
+  - university
+  :lat: 45.52813
+  :lng: -122.575005
+- :name: The Home Depot - E Portland Mall
+  :merchant_type:
+  - department_store
+  - establishment
+  - hardware_store
+  - home_goods_store
+  - store
+  :lat: 45.516635
+  :lng: -122.559998
+- :name: Optic Nerve Arts
+  :merchant_type:
+  - art_gallery
+  - establishment
+  - store
+  :lat: 45.559006
+  :lng: -122.642283
+- :name: Universal Cycles
+  :merchant_type:
+  - bicycle_store
+  - establishment
+  - store
+  :lat: 45.522769
+  :lng: -122.643318
+- :name: Everett Station Lofts & Galleries
+  :merchant_type:
+  - art_gallery
+  - establishment
+  :lat: 45.52528
+  :lng: -122.676805
+- :name: Nike Factory Store
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.541875
+  :lng: -122.661416
+- :name: Portland State University Bookstore
+  :merchant_type:
+  - book_store
+  - establishment
+  - store
+  :lat: 45.512072
+  :lng: -122.681395
+- :name: Rontoms
+  :merchant_type:
+  - bar
+  - establishment
+  - food
+  - restaurant
+  :lat: 45.522604
+  :lng: -122.659492
+- :name: Portland Nursery
+  :merchant_type:
+  - establishment
+  - home_goods_store
+  - store
+  :lat: 45.518923
+  :lng: -122.611022
+- :name: HARBOR FREIGHT TOOLS
+  :merchant_type:
+  - establishment
+  - hardware_store
+  - store
+  :lat: 45.518306
+  :lng: -122.412442
+- :name: Hair of the Dog Brewing Company
+  :merchant_type:
+  - bar
+  - establishment
+  - food
+  - restaurant
+  :lat: 45.515909
+  :lng: -122.665526
+- :name: Rogue Distillery and Public House
+  :merchant_type:
+  - establishment
+  - food
+  - restaurant
+  :lat: 45.525875
+  :lng: -122.684979
+- :name: Bike Gallery - Downtown
+  :merchant_type:
+  - bicycle_store
+  - establishment
+  - store
+  :lat: 45.517989
+  :lng: -122.683367
+- :name: Office Depot
+  :merchant_type:
+  - furniture_store
+  - electronics_store
+  - general_contractor
+  - home_goods_store
+  - store
+  - establishment
+  :lat: 45.520342
+  :lng: -122.67808
+- :name: Petco Animal Supplies - Vancouver
+  :merchant_type:
+  - establishment
+  - pet_store
+  - store
+  :lat: 45.619651
+  :lng: -122.554589
+- :name: The Red Light Clothing Exchange
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - store
+  :lat: 45.511964
+  :lng: -122.626756
+- :name: The Walking Company
+  :merchant_type:
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.517842
+  :lng: -122.676172
+- :name: Blue Sky
+  :merchant_type:
+  - art_gallery
+  - establishment
+  :lat: 45.524044
+  :lng: -122.678056
+- :name: The Joinery
+  :merchant_type:
+  - establishment
+  - furniture_store
+  - general_contractor
+  - home_goods_store
+  - store
+  :lat: 45.479049
+  :lng: -122.613207
+- :name: Laughing Horse Books
+  :merchant_type:
+  - book_store
+  - establishment
+  - store
+  :lat: 45.523151
+  :lng: -122.655528
+- :name: Fred Meyer
+  :merchant_type:
+  - pharmacy
+  - department_store
+  - health
+  - grocery_or_supermarket
+  - food
+  - store
+  - establishment
+  :lat: 45.576167
+  :lng: -122.68057
+- :name: SCRAP
+  :merchant_type:
+  - art_gallery
+  - establishment
+  - store
+  :lat: 45.544073
+  :lng: -122.661763
+- :name: Petsmart
+  :merchant_type:
+  - establishment
+  - pet_store
+  - store
+  - veterinary_care
+  :lat: 45.383235
+  :lng: -122.749436
+- :name: jcpenney
+  :merchant_type:
+  - shoe_store
+  - clothing_store
+  - home_goods_store
+  - department_store
+  - jewelry_store
+  - store
+  - establishment
+  :lat: 45.658682
+  :lng: -122.581197
+- :name: Dante's
+  :merchant_type:
+  - bar
+  - establishment
+  - food
+  - night_club
+  - restaurant
+  :lat: 45.522947
+  :lng: -122.673666
+- :name: Shane Co.
+  :merchant_type:
+  - establishment
+  - jewelry_store
+  - store
+  :lat: 45.449917
+  :lng: -122.785151
+- :name: Spa Sasse'
+  :merchant_type:
+  - beauty_salon
+  - establishment
+  - hair_care
+  - health
+  - spa
+  :lat: 45.519858
+  :lng: -122.67899
+- :name: B Side Tavern
+  :merchant_type:
+  - bar
+  - establishment
+  :lat: 45.52282
+  :lng: -122.658954
+- :name: Fred Meyer
+  :merchant_type:
+  - pharmacy
+  - home_goods_store
+  - department_store
+  - health
+  - finance
+  - florist
+  - grocery_or_supermarket
+  - food
+  - store
+  - establishment
+  :lat: 45.470367
+  :lng: -122.690211
+- :name: ! 'New Seasons Market: Hawthorne'
+  :merchant_type:
+  - liquor_store
+  - bakery
+  - grocery_or_supermarket
+  - store
+  - food
+  - establishment
+  :lat: 45.511736
+  :lng: -122.620354
+- :name: Cost Plus World Market
+  :merchant_type:
+  - establishment
+  - furniture_store
+  - general_contractor
+  - home_goods_store
+  - store
+  :lat: 45.523804
+  :lng: -122.698755
+- :name: Huber's Cafe
+  :merchant_type:
+  - cafe
+  - establishment
+  - food
+  - restaurant
+  :lat: 45.519998
+  :lng: -122.674754
+- :name: Tasty n Sons
+  :merchant_type:
+  - establishment
+  - food
+  - restaurant
+  :lat: 45.550343
+  :lng: -122.666554
+- :name: The Home Depot - E Portland Mall
+  :merchant_type:
+  - department_store
+  - establishment
+  - hardware_store
+  - home_goods_store
+  - store
+  :lat: 45.516635
+  :lng: -122.559998
+- :name: Pearl Specialty Market & Spirits
+  :merchant_type:
+  - establishment
+  - food
+  - liquor_store
+  - store
+  :lat: 45.530043
+  :lng: -122.680559
+- :name: Newspace Center for Photography
+  :merchant_type:
+  - art_gallery
+  - establishment
+  :lat: 45.511142
+  :lng: -122.655597
+- :name: Woodcrafters
+  :merchant_type:
+  - establishment
+  - hardware_store
+  - store
+  :lat: 45.524717
+  :lng: -122.659347
+- :name: Performance Bicycle
+  :merchant_type:
+  - bicycle_store
+  - establishment
+  - store
+  :lat: 45.522691
+  :lng: -122.689578
+- :name: Emerge Medical Spa
+  :merchant_type:
+  - beauty_salon
+  - establishment
+  - hair_care
+  - health
+  - spa
+  :lat: 45.393917
+  :lng: -122.75199
+- :name: REI
+  :merchant_type:
+  - bicycle_store
+  - clothing_store
+  - establishment
+  - store
+  :lat: 45.528706
+  :lng: -122.685503
+- :name: Columbia Sportswear Co
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - store
+  :lat: 45.464408
+  :lng: -122.652468
+- :name: Akemi Salon
+  :merchant_type:
+  - beauty_salon
+  - establishment
+  - hair_care
+  :lat: 45.550242
+  :lng: -122.666518
+- :name: Frame Central, Beaverton, Bethany
+  :merchant_type:
+  - art_gallery
+  - establishment
+  - store
+  :lat: 45.531499
+  :lng: -122.843336
+- :name: Duck Store
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - store
+  :lat: 45.523802
+  :lng: -122.670854
+- :name: Burlington Coat Factory
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.454836
+  :lng: -122.786475
+- :name: Cellairis (Pioneer Mall)
+  :merchant_type:
+  - electronics_store
+  - establishment
+  - store
+  :lat: 45.517602
+  :lng: -122.677842
+- :name: The Home Depot - Tigard
+  :merchant_type:
+  - department_store
+  - establishment
+  - hardware_store
+  - home_goods_store
+  - store
+  :lat: 45.413131
+  :lng: -122.74594
+- :name: Macy's
+  :merchant_type:
+  - clothing_store
+  - department_store
+  - establishment
+  - store
+  :lat: 45.519418
+  :lng: -122.677637
+- :name: Lowe's Home Improvement
+  :merchant_type:
+  - establishment
+  - home_goods_store
+  - store
+  :lat: 45.593163
+  :lng: -122.676768
+- :name: APEX
+  :merchant_type:
+  - bar
+  - establishment
+  - liquor_store
+  - store
+  :lat: 45.504661
+  :lng: -122.653297
+- :name: West Coast Event Productions, INC
+  :merchant_type:
+  - establishment
+  - furniture_store
+  - general_contractor
+  - home_goods_store
+  - store
+  :lat: 45.534661
+  :lng: -122.682129
+- :name: Mohawk Building
+  :merchant_type:
+  - art_gallery
+  - establishment
+  - general_contractor
+  :lat: 45.517615
+  :lng: -122.675104
+- :name: Columbia Sportswear Company
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - store
+  :lat: 45.517942
+  :lng: -122.68069
+- :name: City Liquidators
+  :merchant_type:
+  - establishment
+  - furniture_store
+  - general_contractor
+  - home_goods_store
+  - store
+  :lat: 45.516861
+  :lng: -122.662856
+- :name: House of Vintage
+  :merchant_type:
+  - clothing_store
+  - furniture_store
+  - general_contractor
+  - home_goods_store
+  - store
+  - establishment
+  :lat: 45.512162
+  :lng: -122.630593
+- :name: Sur La Table - Pearl District
+  :merchant_type:
+  - establishment
+  - home_goods_store
+  - store
+  :lat: 45.523582
+  :lng: -122.682164
+- :name: Belmont Inn
+  :merchant_type:
+  - bar
+  - establishment
+  :lat: 45.516532
+  :lng: -122.629689
+- :name: Athletes Lounge
+  :merchant_type:
+  - bicycle_store
+  - establishment
+  - store
+  :lat: 45.536873
+  :lng: -122.706159
+- :name: Clever Cycles
+  :merchant_type:
+  - bicycle_store
+  - establishment
+  - store
+  :lat: 45.512086
+  :lng: -122.656613
+- :name: Vans Store - Clackamas Town Center
+  :merchant_type:
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.477647
+  :lng: -122.579013
+- :name: Aalto Lounge & Bistro
+  :merchant_type:
+  - bar
+  - establishment
+  - night_club
+  :lat: 45.516374
+  :lng: -122.629742
+- :name: Dark Horse Comics
+  :merchant_type:
+  - book_store
+  - establishment
+  - store
+  :lat: 45.443884
+  :lng: -122.641077
+- :name: Bliss Salon and Day Spa
+  :merchant_type:
+  - beauty_salon
+  - establishment
+  - hair_care
+  - spa
+  :lat: 45.504879
+  :lng: -122.629777
+- :name: Hobnob Grille
+  :merchant_type:
+  - bar
+  - establishment
+  - food
+  - restaurant
+  :lat: 45.517078
+  :lng: -122.629724
+- :name: The ReBuilding Center
+  :merchant_type:
+  - establishment
+  - hardware_store
+  - store
+  :lat: 45.54894
+  :lng: -122.675672
+- :name: Cargo
+  :merchant_type:
+  - establishment
+  - furniture_store
+  - general_contractor
+  - home_goods_store
+  - store
+  :lat: 45.525606
+  :lng: -122.68414
+- :name: Foot Traffic
+  :merchant_type:
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.517158
+  :lng: -122.676511
+- :name: Hawthorne Boulevard Books
+  :merchant_type:
+  - book_store
+  - establishment
+  - store
+  :lat: 45.512169
+  :lng: -122.633149
+- :name: Doug Fir Restaurant
+  :merchant_type:
+  - bar
+  - establishment
+  - food
+  - night_club
+  - restaurant
+  :lat: 45.522563
+  :lng: -122.65686
+- :name: World of Wet Pets
+  :merchant_type:
+  - aquarium
+  - establishment
+  - pet_store
+  - store
+  :lat: 45.485668
+  :lng: -122.764367
+- :name: The Portland Mac Store
+  :merchant_type:
+  - electronics_store
+  - establishment
+  - store
+  :lat: 45.531393
+  :lng: -122.658266
+- :name: Petco Animal Supplies
+  :merchant_type:
+  - establishment
+  - pet_store
+  - store
+  :lat: 45.612568
+  :lng: -122.685046
+- :name: Petco Animal Supplies - Tigard
+  :merchant_type:
+  - establishment
+  - pet_store
+  - store
+  :lat: 45.43707
+  :lng: -122.758457
+- :name: Bed Bath and Beyond
+  :merchant_type:
+  - furniture_store
+  - department_store
+  - general_contractor
+  - home_goods_store
+  - store
+  - establishment
+  :lat: 45.516555
+  :lng: -122.561276
+- :name: Genoa
+  :merchant_type:
+  - establishment
+  - food
+  - restaurant
+  :lat: 45.516301
+  :lng: -122.636325
+- :name: Duck Store
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - store
+  :lat: 45.523802
+  :lng: -122.670854
+- :name: Paxton Gate
+  :merchant_type:
+  - art_gallery
+  - establishment
+  - home_goods_store
+  - jewelry_store
+  - store
+  :lat: 45.553943
+  :lng: -122.6754
+- :name: Forever 21
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.518247
+  :lng: -122.676126
+- :name: Eastbank Interiors
+  :merchant_type:
+  - establishment
+  - furniture_store
+  - general_contractor
+  - home_goods_store
+  - store
+  :lat: 45.515297
+  :lng: -122.666638
+- :name: Kmart
+  :merchant_type:
+  - clothing_store
+  - department_store
+  - electronics_store
+  - establishment
+  - store
+  :lat: 45.555162
+  :lng: -122.535496
+- :name: Dosha Salon Spa Hawthorne
+  :merchant_type:
+  - beauty_salon
+  - establishment
+  - hair_care
+  :lat: 45.511968
+  :lng: -122.628795
+- :name: WesternBikeworks
+  :merchant_type:
+  - bicycle_store
+  - cafe
+  - establishment
+  - food
+  - store
+  :lat: 45.530203
+  :lng: -122.688636
+- :name: Red E Café
+  :merchant_type:
+  - art_gallery
+  - cafe
+  - establishment
+  - food
+  :lat: 45.562595
+  :lng: -122.677205
+- :name: J E Salon
+  :merchant_type:
+  - establishment
+  - hair_care
+  - health
+  :lat: 45.521802
+  :lng: -122.676565
+- :name: ADX
+  :merchant_type:
+  - art_gallery
+  - establishment
+  :lat: 45.519841
+  :lng: -122.654749
+- :name: '77'
+  :merchant_type:
+  - beauty_salon
+  - establishment
+  - hair_care
+  - health
+  - spa
+  :lat: 45.526475
+  :lng: -122.682455
+- :name: Gigantic Brewing Co
+  :merchant_type:
+  - bar
+  - establishment
+  - food
+  - liquor_store
+  - store
+  :lat: 45.484969
+  :lng: -122.639464
+- :name: Wigland
+  :merchant_type:
+  - establishment
+  - hair_care
+  - store
+  :lat: 45.535147
+  :lng: -122.655191
+- :name: Citybikes - Annex
+  :merchant_type:
+  - bicycle_store
+  - establishment
+  - store
+  :lat: 45.52214
+  :lng: -122.657884
+- :name: New Renaissance Bookshop
+  :merchant_type:
+  - book_store
+  - clothing_store
+  - establishment
+  - store
+  :lat: 45.532448
+  :lng: -122.698576
+- :name: Goodwill Industries of the Columbia Willamette
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - store
+  :lat: 45.509041
+  :lng: -122.660234
+- :name: BURLINGTON COAT FACTORY
+  :merchant_type:
+  - clothing_store
+  - furniture_store
+  - department_store
+  - general_contractor
+  - home_goods_store
+  - store
+  - establishment
+  :lat: 45.446722
+  :lng: -122.578323
+- :name: Fred Meyer Jewelers
+  :merchant_type:
+  - pharmacy
+  - department_store
+  - jewelry_store
+  - store
+  - health
+  - establishment
+  :lat: 45.48783
+  :lng: -122.79365
+- :name: Best Buy
+  :merchant_type:
+  - department_store
+  - electronics_store
+  - establishment
+  - store
+  :lat: 45.575222
+  :lng: -122.561779
+- :name: Pets on Broadway
+  :merchant_type:
+  - establishment
+  - pet_store
+  - store
+  :lat: 45.535056
+  :lng: -122.637003
+- :name: The Sweet Hereafter
+  :merchant_type:
+  - bar
+  - establishment
+  :lat: 45.516375
+  :lng: -122.630333
+- :name: Fred Meyer
+  :merchant_type:
+  - department_store
+  - jewelry_store
+  - grocery_or_supermarket
+  - food
+  - store
+  - establishment
+  :lat: 45.53417
+  :lng: -122.636224
+- :name: The Home Depot - Clackamas
+  :merchant_type:
+  - establishment
+  - home_goods_store
+  - store
+  :lat: 45.455841
+  :lng: -122.576795
+- :name: Watchworks - Alex & Co Jewelers
+  :merchant_type:
+  - establishment
+  - jewelry_store
+  - store
+  :lat: 45.519801
+  :lng: -122.682359
+- :name: Petco Animal Supplies - Clackamas
+  :merchant_type:
+  - establishment
+  - pet_store
+  - store
+  :lat: 45.43284
+  :lng: -122.570607
+- :name: Portland City Grill
+  :merchant_type:
+  - bar
+  - establishment
+  - food
+  - restaurant
+  :lat: 45.522105
+  :lng: -122.676129
+- :name: City Liquidators
+  :merchant_type:
+  - establishment
+  - furniture_store
+  - general_contractor
+  - home_goods_store
+  - store
+  :lat: 45.516861
+  :lng: -122.662856
+- :name: Fred Meyer Jewelers
+  :merchant_type:
+  - establishment
+  - jewelry_store
+  - store
+  :lat: 45.620098
+  :lng: -122.646311
+- :name: The Home Depot - Beaverton
+  :merchant_type:
+  - establishment
+  - hardware_store
+  - home_goods_store
+  - store
+  :lat: 45.524009
+  :lng: -122.817219
+- :name: Sanderson Safety Supply
+  :merchant_type:
+  - establishment
+  - shoe_store
+  - store
+  :lat: 45.514989
+  :lng: -122.662902
+- :name: Portland Center Plaza Liquor
+  :merchant_type:
+  - establishment
+  - liquor_store
+  - store
+  :lat: 45.508594
+  :lng: -122.679169
+- :name: H&M
+  :merchant_type:
+  - clothing_store
+  - establishment
+  - home_goods_store
+  - store
+  :lat: 45.517965
+  :lng: -122.676539
+- :name: Johns Market Place
+  :merchant_type:
+  - establishment
+  - food
+  - liquor_store
+  - store
+  :lat: 45.467381
+  :lng: -122.713116
+- :name: W.C. Winks Hardware
+  :merchant_type:
+  - establishment
+  - hardware_store
+  - store
+  :lat: 45.519247
+  :lng: -122.663658
+- :name: Backyard Bird Shop
+  :merchant_type:
+  - establishment
+  - home_goods_store
+  - pet_store
+  - store
+  :lat: 45.655513
+  :lng: -122.589798
+- :name: RadioShack
+  :merchant_type:
+  - electronics_store
+  - establishment
+  - store
+  :lat: 45.5171
+  :lng: -122.6782
+- :name: Disjecta
+  :merchant_type:
+  - art_gallery
+  - establishment
+  :lat: 45.583464
+  :lng: -122.685736
+
+
