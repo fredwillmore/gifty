@@ -10,10 +10,46 @@
     </div>
   <% end %>
 
-  <%= form_for(@user) do |f| %>
     <% f.display_level=2 %>
-    <% render 'fields', f: f  %>
+    <% case f.display_level %>
+    <% when 1 %>
+        <%= f.label I18n.t("models.user.labels.title") %>
+        <div class="field"><%= @user.title %></div>
+        <%= f.label I18n.t("models.user.labels.first_name") %>
+        <div class="field"><%= @user.first_name %></div>
+        <%= f.label I18n.t("models.user.labels.last_name") %>
+        <div class="field"><%= @user.last_name %></div>
+        <%= f.label I18n.t("models.user.labels.email") %>
+        <div class="field"><%= @user.email %></div>
+        <%= f.label I18n.t("models.user.labels.role_ids") %>
+        <div class="field">
+          <%= @user.roles_display %>
+        </div>
+    <% when 2 %>
+        <%= f.label I18n.t("models.user.labels.title") %>
+        <div class="field"><%= f.text_field :title %></div>
+        <%= f.label I18n.t("models.user.labels.first_name") %>
+        <div class="field"><%= f.text_field :first_name %></div>
+        <%= f.label I18n.t("models.user.labels.last_name") %>
+        <div class="field"><%= f.text_field :last_name %></div>
+        <%= f.label I18n.t("models.user.labels.email") %>
+        <div class="field"><%= f.text_field :email %></div>
+        <%= f.label I18n.t("models.user.labels.role_ids") %>
+        <div class="field">
+          <%= f.collection_check_boxes :role_ids, Role.all, :id, :name, item_wrapper_tag: :div, item_wrapper_class: 'checkbox_container' %>
+        </div>
+    <% else %>
+        <%= "no trapasan" %>
+    <% end %>
+
+    <%
+       #render 'fields', f: f
+    %>
+
+  <%= f.fields_for :locations do |builder| %>
+      <%= render 'locations/fields', :f => builder %>
   <% end %>
+  <%= link_to_add_fields "Add Location", f, :locations %>
 
   <div class="actions">
     <%= f.submit %>

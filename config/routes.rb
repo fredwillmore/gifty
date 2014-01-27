@@ -1,15 +1,22 @@
 Gifty::Application.routes.draw do
+  resources :merchant_types
   resources :roles
 
   resources :locations
   resources :purchases
 
   resources :merchants
+  get '/get_merchants_by_area' => 'merchants#get_by_area'
 
   resources :gifts
 
   devise_for :users
-  resources :users, :only => [:index, :show, :edit, :new, :update]
+  resources :users, :only => [:index, :show, :edit, :new, :update] do
+    member do
+      get 'favorites'
+    end
+  end
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

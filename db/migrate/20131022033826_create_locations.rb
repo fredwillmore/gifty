@@ -1,10 +1,12 @@
 class CreateLocations < ActiveRecord::Migration
   def self.up
     create_table :locations do |t|
-      t.integer :merchant_id
-      t.string :address
-      t.float :latitude
-      t.float :longitude
+      t.references :imageable, polymorphic: true
+      t.integer :locatable_id
+      t.string  :locatable_type
+      t.string  :address
+      t.float   :latitude
+      t.float   :longitude
       t.timestamps
     end
   end

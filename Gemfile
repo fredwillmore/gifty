@@ -69,6 +69,11 @@ gem "nifty-generators", :group => :development
 gem "geocoder"
 gem "mocha", group: :test
 
+#gem 'activerecord-postgres-hstore'
 #gem "protected_attributes"
 
 gem "inherited_resources"
+
+gem 'activerecord-postgres-hstore'
+
+gem "squeel"

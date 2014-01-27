@@ -3,8 +3,8 @@ module ActionView
     class FormBuilder
       attr_accessor :display_level
       def field_wrapper(input_type, field_name, obj, options={} )
-        options = {display: self.display_level}.merge(options)
-        case display
+        #options = {display: self.display_level}.merge(options)
+        case display_level
           when 2
             o = self.label I18n.t("models.company.labels.#{field_name}")
             o += eval("#{input_type} :#{field_name} #{options.blank? ? '' : 'options'}")

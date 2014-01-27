@@ -8,3 +8,4 @@ en:
         email: "Email Address"
         password: "Password"
         confirm_password: "Confirm Password"
+        role_ids: "User Roles"
