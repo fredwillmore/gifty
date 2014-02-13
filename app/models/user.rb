@@ -4,7 +4,7 @@ class User < ActiveRecord::Base
   devise :invitable, :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
   has_and_belongs_to_many :roles
-  has_and_belongs_to_many :merchants # , as: favorite
+  has_and_belongs_to_many :favorite_merchants, class_name: "Merchant"
   belongs_to :merchants # , as: admin
   has_many :locations, as: :locatable, dependent: :destroy
   #has_many :locations, dependent: :destroy
@@ -16,5 +16,19 @@ class User < ActiveRecord::Base
 
   def role_keys
     self.roles.map { |r| r.key }
+  end
+
+  #def favorite_merchants
+  #  @user = User.find params[:id]
+  #  Merchant.find @user.favorite_merchant_ids
+  #end
+
+  # set current user for use in models by User.current
+  def self.current
+    Thread.current[:user]
+  end
+
+  def self.current=(user)
+    Thread.current[:user] = user
   end
 end

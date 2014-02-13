@@ -1,4 +1,6 @@
 Gifty::Application.routes.draw do
+  resources :books
+
   resources :merchant_types
   resources :roles
 
@@ -14,8 +16,10 @@ Gifty::Application.routes.draw do
   resources :users, :only => [:index, :show, :edit, :new, :update] do
     member do
       get 'favorites'
+      #post 'update_favorite'
     end
   end
+  post '/update_favorite' => 'users#update_favorite'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

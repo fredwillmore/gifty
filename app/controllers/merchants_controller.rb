@@ -70,6 +70,7 @@ class MerchantsController < ApplicationController
       params[:s], params[:n], params[:w], params[:e]
     )
     r = []
+    user_favorites = User.find(params[:user_id]).favorite_merchant_ids
     m.each do |merchant|
       r << {
         id: merchant.id,
@@ -78,7 +79,8 @@ class MerchantsController < ApplicationController
         merchant_type_names: merchant.merchant_types.map do |mt| mt.name end,
         merchant_type_icon_keys: merchant.merchant_types.map do |mt| mt.icon_key end,
         latitude: merchant.locations.first.latitude,
-        longitude: merchant.locations.first.longitude
+        longitude: merchant.locations.first.longitude,
+        selected: user_favorites.include?( merchant.id)
       }
     end
     respond_with r

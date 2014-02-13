@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131231010112) do
+ActiveRecord::Schema.define(version: 20140211021821) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -52,6 +52,11 @@ ActiveRecord::Schema.define(version: 20131231010112) do
     t.datetime "updated_at"
     t.string   "name"
     t.integer  "merchant_type_ids", array: true
+  end
+
+  create_table "merchants_users", force: true do |t|
+    t.integer "merchant_id"
+    t.integer "user_id"
   end
 
   create_table "purchases", force: true do |t|
