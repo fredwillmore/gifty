@@ -17,6 +17,8 @@ Gifty::Application.routes.draw do
     member do
       get 'favorites'
       #post 'update_favorite'
+      get 'friends'
+      get 'friend_search'
     end
   end
   post '/update_favorite' => 'users#update_favorite'

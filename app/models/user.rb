@@ -31,4 +31,23 @@ class User < ActiveRecord::Base
   def self.current=(user)
     Thread.current[:user] = user
   end
+
+  #######################################################
+  #            begin - search support methods           #
+  #######################################################
+
+  include PgSearch
+
+  pg_search_scope :search_name, :against => [:first_name, :last_name],
+                  :using => {
+                      :tsearch => {:prefix => true}
+                  }
+
+#                  :using => [:tsearch, :dmetaphone, :trigrams],
+#                  :ignoring => :accents
+
+                  #:associated_against => {
+                  #    :translations => [:title, :description],
+                  #    :extracted_assets => :plain_text
+                  #}
 end

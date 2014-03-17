@@ -10,6 +10,21 @@ class UsersController < InheritedResources::Base
     @user = User.find params[:id]
   end
 
+  def friends
+    @user = User.find params[:id]
+  end
+
+  def friend_search
+    users = User.search_name(params[:term]).map do |u|
+      {
+          label: "#{u.last_name}, #{u.first_name}",
+          name: "#{u.last_name}, #{u.first_name}",
+          id: u.id
+      }
+    end
+    respond_with users
+  end
+
   def update_favorite
     user = User.find params[:user_id]
     if params[:selected] == 'true'

@@ -28,7 +28,7 @@ Gifty::Application.configure do
   # number of complex assets.
   config.assets.debug = true
 
-  config.serve_static_assets = false
+  config.serve_static_assets = true
 
   # better_errors gem url handler, also requires app from this .zip copied to your Applications folder:
   # http://devnet.jetbrains.com/message/5477503?tstart=0

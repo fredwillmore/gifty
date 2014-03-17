@@ -1,3 +1,4 @@
+
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -9,13 +10,13 @@ gem 'pg'
 gem 'simple_form'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -47,10 +48,10 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'thin', :group => [:local, :development]
-gem 'better_errors', :group => [:local, :development]
-gem 'binding_of_caller', :group => [:local, :development]
-gem 'meta_request', :group => [:local, :development]
+gem 'thin', group: :development
+gem 'better_errors', group: :development
+gem 'binding_of_caller', group: :development
+gem 'meta_request', group: :development
 
 gem 'globalize3'
 #gem "devise", ">= 2.2.4"
@@ -78,3 +79,13 @@ gem "inherited_resources"
 gem 'activerecord-postgres-hstore'
 
 gem "squeel"
+
+gem 'pg_search'
+
+gem 'backbone-on-rails'
+
+#gem 'coffee-rails-source-maps', group: :development
+#gem 'sass-rails-source-maps', group: :development
+
+gem 'coffee-rails-source-maps'
+#gem 'sass-rails-source-maps'
