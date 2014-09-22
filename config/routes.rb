@@ -1,16 +1,21 @@
 Gifty::Application.routes.draw do
-  resources :books
+  # match :admin, :to => 'admin/dashboards#index'
+  namespace :admin do
+    root to: "admin/dashboards#index"
+    # get 'index', to: 'dashboard#index', as: '/'
+    # get '', to: 'dashboard#index', as: '/'
 
-  resources :merchant_types
-  resources :roles
-
-  resources :locations
-  resources :purchases
-
-  resources :merchants
-  get '/get_merchants_by_area' => 'merchants#get_by_area'
-
-  resources :gifts
+    # resources :merchant_types
+    # resources :roles
+    #
+    # resources :locations
+    # resources :purchases
+    #
+    # resources :merchants
+    # get '/get_merchants_by_area' => 'merchants#get_by_area'
+    #
+    # resources :gifts
+  end
 
   devise_for :users
   resources :users, :only => [:index, :show, :edit, :new, :update] do

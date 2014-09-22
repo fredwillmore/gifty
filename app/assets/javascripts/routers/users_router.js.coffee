@@ -11,4 +11,3 @@ class Gifty.Routers.Users extends Backbone.Router
 
    add_friend: (id) ->
       view = new Gifty.Views.Users
-      alert "hello #{view}"
