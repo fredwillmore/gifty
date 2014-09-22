@@ -1,7 +1,17 @@
 Gifty::Application.routes.draw do
+  namespace :admin do
+    resources :gifts
+    resources :users
+    resources :roles
+    resources :locations
+    resources :merchant_types
+    resources :merchants
+    resources :purchases
+  end
+
   # match :admin, :to => 'admin/dashboards#index'
   namespace :admin do
-    root to: "admin/dashboards#index"
+    root to: "dashboard#index"
     # get 'index', to: 'dashboard#index', as: '/'
     # get '', to: 'dashboard#index', as: '/'
 

@@ -89,6 +89,8 @@ gem 'backbone-on-rails'
 gem 'coffee-rails-source-maps'
 #gem 'sass-rails-source-maps'
 
+gem 'haml'
+
 group :test do
   gem "mocha"
   gem "minitest", "~> 4.7"

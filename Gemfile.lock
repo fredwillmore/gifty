@@ -89,6 +89,8 @@ GEM
     globalize3 (0.1.0)
       activemodel (>= 3.0.0)
       activerecord (>= 3.0.0)
+    haml (4.0.5)
+      tilt
     has_scope (0.6.0.rc)
       actionpack (>= 3.2, < 5)
       activesupport (>= 3.2, < 5)
@@ -219,6 +221,7 @@ DEPENDENCIES
   devise_invitable
   geocoder
   globalize3
+  haml
   inherited_resources
   jbuilder (~> 1.2)
   jquery-rails
