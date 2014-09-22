@@ -69,7 +69,6 @@ gem 'vestal_versions'
 
 gem "nifty-generators", :group => :development
 gem "geocoder"
-gem "mocha", group: :test
 
 #gem 'activerecord-postgres-hstore'
 #gem "protected_attributes"
@@ -89,3 +88,8 @@ gem 'backbone-on-rails'
 
 gem 'coffee-rails-source-maps'
 #gem 'sass-rails-source-maps'
+
+group :test do
+  gem "mocha"
+  gem "minitest", "~> 4.7"
+end

@@ -224,6 +224,7 @@ DEPENDENCIES
   jquery-rails
   jquery-ui-rails
   meta_request
+  minitest (~> 4.7)
   mocha
   nifty-generators
   pg
