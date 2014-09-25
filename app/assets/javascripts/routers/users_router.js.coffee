@@ -4,10 +4,10 @@ class Gifty.Routers.Users extends Backbone.Router
       'users/:id/add_friend': 'add_friend'
 
    index: ->
-      alert "hello home page"
+#      alert "hello home page"
 
    show: (id) ->
-      alert "hello #{id}"
+#      alert "hello #{id}"
 
    add_friend: (id) ->
       view = new Gifty.Views.Users
