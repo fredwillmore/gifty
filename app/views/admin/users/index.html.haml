@@ -7,7 +7,7 @@
       %th
       %th
   %tbody
-    = @users.each do |user|
+    - @users.each do |user|
       %tr
         %td{colspan: 3}= "#{user.last_name}, #{user.first_name} - #{user.email}"
       %tr
