@@ -1,0 +1,173 @@
+<style type="text/css">
+    html, body, #map_canvas {
+        margin: 0;
+        padding: 0;
+        height: 80%;
+    }
+    div#info_window {
+        position: absolute;
+        display: none;
+        opacity: 10%;
+        background: #ffffff;
+        padding: 8px;
+        border: solid #000000 1px;
+    }
+    div#info_window div {
+        font-weight: bold;
+    }
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=true"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $.favoritesMap = new Object();
+        $.favoritesMap['map_canvas'] = document.getElementById('map_canvas');
+        $.favoritesMap['map_options'] = {
+            center: new google.maps.LatLng(45.504734, -122.624881),
+            zoom: 16,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            draggable: true
+        }
+        $.favoritesMap['map'] = new google.maps.Map($.favoritesMap['map_canvas'], $.favoritesMap['map_options']);
+        $.favoritesMap['markers_info'] = new Object;
+        $.favoritesMap['infowindow'] = new google.maps.InfoWindow({
+            content: '',
+            map: $.favoritesMap['map'],
+            position: new google.maps.LatLng(51.476706,0)
+        });
+        $.favoritesMap['infowindow'].close();
+
+        window.addEventListener("keydown", function(event) {
+            // Bind to both command (for Mac) and control (for Win/Linux)
+            if (event.keyCode == 27) {
+                $("#info_window").hide();
+            }
+        }, false);
+        google.maps.event.addDomListener($.favoritesMap['map'], 'dragend', getLocalMerchants);
+        google.maps.event.addDomListener($.favoritesMap['map'], 'resize', getLocalMerchants);
+        google.maps.event.addDomListener($.favoritesMap['map'], 'zoom_changed', getLocalMerchants);
+        google.maps.event.addDomListener($.favoritesMap['map'], 'center_changed', getLocalMerchants);
+
+        if(navigator.geolocation) {
+            browserSupportFlag = true;
+            navigator.geolocation.getCurrentPosition(function(position) {
+                initialLocation = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+                $.favoritesMap['map'].setCenter(initialLocation);
+            }, function() {
+                handleNoGeolocation(browserSupportFlag);
+            }, {timeout:10000});
+        }
+        // Browser doesn't support Geolocation
+        else {
+            browserSupportFlag = false;
+            handleNoGeolocation(browserSupportFlag);
+        }
+
+        function handleNoGeolocation(errorFlag) {
+            if (errorFlag == true) {
+                alert("Geolocation service failed.");
+//                initialLocation = newyork;
+            } else {
+                alert("Your browser doesn't support geolocation. We've placed you in Siberia.");
+//                initialLocation = siberia;
+            }
+            $.favoritesMap['map'].setCenter(initialLocation);
+        }
+
+        function getLocalMerchants() {
+            clearTimeout($.favoritesMap['timeoutResize']);
+            bounds = this.getBounds();
+            $.favoritesMap['timeoutResize'] = setTimeout(function(){
+                ne = bounds.getNorthEast();
+                sw = bounds.getSouthWest();
+                if($.favoritesMap['request']) {
+                    $.favoritesMap['request'].abort();
+                }
+                $.favoritesMap['request'] = $.ajax({
+                    type: 'GET',
+                    url: '/get_merchants_by_area',
+                    dataType: 'json',
+                    data: {
+                        n: ne.lat(),
+                        s: sw.lat(),
+                        e: ne.lng(),
+                        w: sw.lng(),
+                        user_id: <%= params[:id] %>
+                    },
+                    success: function(data){
+                        $.each($.favoritesMap['markers_info'], function(index, value) {
+                            value['marker'].setMap(null);
+                        });
+                        $.favoritesMap['markers_info'] = new Object;
+                        $.each(data, function( index, value ) {
+                            marker = new google.maps.Marker({
+                                map: $.favoritesMap['map'],
+                                position: new google.maps.LatLng(value['latitude'], value['longitude']),
+                                icon: '/assets/icons/' + value['merchant_type_icon_keys'][0] + '%20(7).png'
+//                                TODO: it might be a bad idea to use hard-coded path '/assets/' instead of image_path but it works now, and I can't make image_path work
+                            });
+                            $.favoritesMap['markers_info'][value['id']] = value;
+                            $.favoritesMap['markers_info'][value['id']]['marker'] = marker;
+                                google.maps.event.addListener(marker, 'mouseover', function() {
+                                this.setIcon('/assets/icons/' + value['merchant_type_icon_keys'][0] + '%20(6).png');
+                            });
+                            google.maps.event.addListener(marker, 'mouseout', function() {
+                                this.setIcon('/assets/icons/' + value['merchant_type_icon_keys'][0] + '%20(7).png');
+                            });
+                            google.maps.event.addListener(marker, 'click', function() {
+                                $("#info_window_label").html(value['name']);
+                                $("#info_window").show();
+                                $("#info_window_checkbox").val(value['id']);
+                                $("#info_window_checkbox").prop('checked', $.favoritesMap['markers_info'][value['id']]['selected']);
+                                $("#info_window").position({
+                                    my: "left+25 top-25",
+//                                    at: "left top",
+                                    of: event
+                                });
+                            });
+
+                        });
+                    }
+                });
+            },250); // TODO: this method of throttling the ajax calls to get_merchants_by_area introduces a 250ms lag - I'd prefer to avoid
+//          REMEMBER: map icons came from http://mapicons.nicolasmollet.com/
+//          make sure there aren't any legal issues w using them
+        }
+
+        $("#info_window_checkbox").click( function(){
+            $.favoritesMap['request'] = $.ajax({
+                type: 'POST',
+                url: '/update_favorite',
+                dataType: 'json',
+                data: {
+                    selected: this.checked,
+                    merchant_id: this.value,
+                    user_id: <%= params[:id] %>
+                },
+                success: function(data){
+                    $.favoritesMap['markers_info'][data['merchant_id']]['selected'] = data['selected'];
+                    if($("#info_window_checkbox").val() == data['merchant_id']) {
+                        // only do fade out if we're not already editing another favorite
+                        $("#info_window").fadeOut(200);
+                    }
+                }
+            });
+//            I don't think I want this inside the success handler
+        });
+
+    });
+
+
+</script>
+
+<div id="targetElement"></div>
+<h1>Editing user favorites</h1>
+
+<div id="map_canvas"></div>
+<div id="info_window">
+  <div id="info_window_label"></div>
+  <input type="checkbox" id="info_window_checkbox" value=""> favorite
+</div>
+
+<%= link_to 'Show', @user %> |
+<%= link_to 'Back', users_path %>

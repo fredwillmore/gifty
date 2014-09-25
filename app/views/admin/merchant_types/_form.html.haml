@@ -1,0 +1,12 @@
+= form_for @merchant_type do |f|
+  = f.error_messages
+  %p
+    = f.label :name
+    %br
+    = f.text_field :name
+  %p
+    = f.label :key
+    %br
+    = f.text_field :key
+  %p= f.submit
+

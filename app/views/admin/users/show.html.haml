@@ -1,0 +1,6 @@
+#p{id: notice}= notice
+  - form_for(@user) do |f|
+    - f.display_level=1
+    = render 'fields', f: f
+= link_to 'Edit', edit_user_path(@user)
+= link_to 'Back', users_path

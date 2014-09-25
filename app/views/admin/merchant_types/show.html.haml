@@ -1,0 +1,13 @@
+= title "Merchant Type"
+
+%p
+  %strong Name:
+  = @merchant_type.name
+%p
+  %strong Key:
+  = @merchant_type.key
+
+%p
+  = link_to "Edit", edit_merchant_type_path(@merchant_type)
+  = link_to "Destroy", @merchant_type, :confirm => 'Are you sure?', :method => :delete
+  = link_to "View All", merchant_types_path

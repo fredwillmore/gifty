@@ -1,0 +1,41 @@
+- form_for(@user) do |f|
+  -if @user.errors.any?
+    .error_explanation
+      %h2= pluralize(@user.errors.count, "error")
+        prohibited this user from being saved:
+        %ul
+          - @user.errors.full_messages.each do |msg|
+          %li= msg
+
+    - f.display_level=2
+    - case f.display_level
+      - when 1
+        = f.label I18n.t("models.user.labels.title")
+        .field= @user.title
+        = f.label I18n.t("models.user.labels.first_name")
+        .field= @user.first_name
+        = f.label I18n.t("models.user.labels.last_name")
+        .field= @user.last_name
+        = f.label I18n.t("models.user.labels.email")
+        .field= @user.email
+        = f.label I18n.t("models.user.labels.role_ids")
+        .field= @user.roles_display
+      - when 2
+        = f.label I18n.t("models.user.labels.title") %>
+        .field"><%= f.text_field :title
+        = f.label I18n.t("models.user.labels.first_name") %>
+        .field"><%= f.text_field :first_name
+        = f.label I18n.t("models.user.labels.last_name") %>
+        .field"><%= f.text_field :last_name
+        = f.label I18n.t("models.user.labels.email") %>
+        .field"><%= f.text_field :email
+        = f.label I18n.t("models.user.labels.role_ids") %>
+        .field= f.collection_check_boxes :role_ids, Role.all, :id, :name, item_wrapper_tag: :div, item_wrapper_class: 'checkbox_container'
+  - else
+    no trapasan
+
+- f.fields_for :locations do |builder|
+  = render 'locations/fields', :f => builder
+  = link_to_add_fields "Add Location", f, :locations
+
+  .actions= f.submit

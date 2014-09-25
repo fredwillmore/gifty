@@ -1,0 +1,7 @@
+%h1 Editing user friends
+  = form_tag friend_search_user_path do
+    = label_tag :friend_search, I18n.t("models.user.labels.friend_search")
+    .field= search_field_tag :friend_search
+    %button{id: add_friend} Add Friend
+= link_to 'Show', @user
+= link_to 'Back', users_path
