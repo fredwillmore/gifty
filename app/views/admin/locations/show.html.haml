@@ -1,4 +1,4 @@
-= title "Location"
+%h1 Location
 
 %p
   %strong Address:
@@ -11,6 +11,6 @@
   = @location.longitude
 
 %p
-  = link_to "Edit", edit_location_path(@location)
-  = link_to "Destroy", @location, :confirm => 'Are you sure?', :method => :delete
-  = link_to "View All", locations_path
+  = link_to "Edit", edit_admin_location_path(@location)
+  = link_to "Destroy", admin_location_path(@location), :confirm => 'Are you sure?', :method => :delete
+  = link_to "View All", admin_locations_path

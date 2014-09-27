@@ -1,4 +1,4 @@
-= title "Merchant Type"
+%h1 Merchant Type
 
 %p
   %strong Name:
@@ -8,6 +8,6 @@
   = @merchant_type.key
 
 %p
-  = link_to "Edit", edit_merchant_type_path(@merchant_type)
-  = link_to "Destroy", @merchant_type, :confirm => 'Are you sure?', :method => :delete
-  = link_to "View All", merchant_types_path
+  = link_to "Edit", edit_admin_merchant_type_path(@merchant_type)
+  = link_to "Destroy", admin_merchant_type_path(@merchant_type), :confirm => 'Are you sure?', :method => :delete
+  = link_to "View All", admin_merchant_types_path

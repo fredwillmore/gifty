@@ -1,0 +1,21 @@
+%h1 Listing purchases
+
+%table
+  %thead
+    %tr
+      %th Gift
+      %th
+      %th
+      %th
+
+  %tbody
+    - @purchases.each do |purchase|
+      %tr
+        %td= purchase.gift_id
+        %td= link_to 'Show', admin_purchase_path(purchase)
+        %td= link_to 'Edit', edit_admin_purchase_path(purchase)
+        %td= link_to 'Destroy', admin_purchase_path(purchase), method: :delete, data: { confirm: 'Are you sure?' }
+
+%br
+
+= link_to 'New Purchase', new_admin_purchase_path

@@ -1,4 +1,4 @@
-class RolesController < ApplicationController
+class Admin::RolesController < ApplicationController
   def index
     @roles = Role.all
   end
@@ -8,6 +8,10 @@ class RolesController < ApplicationController
   end
 
   def edit
+    @role = Role.find params[:id]
+  end
+
+  def show
     @role = Role.find params[:id]
   end
 end

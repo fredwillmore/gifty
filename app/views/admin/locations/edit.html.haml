@@ -1,7 +1,7 @@
-= title "Edit Location"
+%h1 Edit Location
 
 = render 'form'
 
 %p
-  = link_to "Show", @location
-  = link_to "View All", locations_path
+  = link_to "Show", admin_location_path(@location)
+  = link_to "View All", admin_locations_path

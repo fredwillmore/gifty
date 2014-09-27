@@ -6,5 +6,5 @@
 %ol
   - for location in @merchant.locations
     %li= h location.address
-= link_to 'Edit', edit_merchant_path(@merchant)
-= link_to 'Back', merchants_path
+= link_to 'Edit', edit_admin_merchant_path(@merchant)
+= link_to 'Back', admin_merchants_path

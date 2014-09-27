@@ -1,8 +1,8 @@
-= form_for(@merchant) do |f|
+= form_for [:admin, @merchant] do |f|
   - if @merchant.errors.any?
     .error_explanation
       %h2= pluralize(@merchant.errors.count, "error")
-        prohibited this merchant from being saved:
+      prohibited this merchant from being saved:
       %ul
         - @merchant.errors.full_messages.each do |msg|
           %li= msg

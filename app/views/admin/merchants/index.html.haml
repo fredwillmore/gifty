@@ -12,12 +12,12 @@
       %tr
         %td{colspan: 3}= merchant.name
       %tr
-        %td= link_to 'Show', merchant
-        %td= link_to 'Edit', edit_merchant_path(merchant)
-        %td= link_to 'Destroy', merchant, method: :delete, data: { confirm: 'Are you sure?' }
+        %td= link_to 'Show', admin_merchant_path(merchant)
+        %td= link_to 'Edit', edit_admin_merchant_path(merchant)
+        %td= link_to 'Destroy', admin_merchant_path(merchant), method: :delete, data: { confirm: 'Are you sure?' }
       %tr
         %td{colspan: 3}
           %br
 %br
 
-= link_to 'New Merchant', new_merchant_path
+= link_to 'New Merchant', new_admin_merchant_path

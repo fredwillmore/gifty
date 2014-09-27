@@ -1,4 +1,4 @@
-= title "Merchant Types"
+%h1 Merchant Types
 
 %table
   %tr
@@ -8,8 +8,8 @@
     %tr
       %td= merchant_type.name
       %td= merchant_type.key
-      %td= link_to "Show", merchant_type
-      %td= link_to "Edit", edit_merchant_type_path(merchant_type)
-      %td= link_to "Destroy", merchant_type, :confirm => 'Are you sure?', :method => :delete
+      %td= link_to "Show", admin_merchant_type_path(merchant_type)
+      %td= link_to "Edit", edit_admin_merchant_type_path(merchant_type)
+      %td= link_to "Destroy", admin_merchant_type_path(merchant_type), :confirm => 'Are you sure?', :method => :delete
 
-%p= link_to "New Merchant Type", new_merchant_type_path
+%p= link_to "New Merchant Type", new_admin_merchant_type_path
