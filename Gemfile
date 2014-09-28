@@ -64,8 +64,7 @@ gem "cancan"
 gem "rolify"
 
 gem 'state_machine'
-gem 'vestal_versions'
-#gem 'vestal_versions', github: 'laserlemon/vestal_versions'
+gem 'vestal_versions' # TODO: consider changing to paper_trail
 
 gem "nifty-generators", :group => :development
 gem "geocoder"

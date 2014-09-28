@@ -7,6 +7,7 @@ class User < ActiveRecord::Base
   has_and_belongs_to_many :favorite_merchants, class_name: "Merchant"
   belongs_to :merchants # , as: admin
   has_many :locations, as: :locatable, dependent: :destroy
+  has_many :friends, :class_name => "UserFriend"
   #has_many :locations, dependent: :destroy
   accepts_nested_attributes_for :locations, :reject_if => lambda { |a| a[:address].blank? }, allow_destroy: true
 
@@ -32,6 +33,10 @@ class User < ActiveRecord::Base
     Thread.current[:user] = user
   end
 
+  def to_s
+    "#{first_name} #{last_name}"
+  end
+
   #######################################################
   #            begin - search support methods           #
   #######################################################
@@ -50,4 +55,23 @@ class User < ActiveRecord::Base
                   #    :translations => [:title, :description],
                   #    :extracted_assets => :plain_text
                   #}
+
+  # def friends
+  #
+  # end
+end
+
+class User::ParameterSanitizer < Devise::ParameterSanitizer
+  private
+  def account_sign_in
+    default_paramiters.permit(:first_name, :last_name, :handle, :email, :password, :password_confirmation, :current_password)
+  end
+
+  def account_sign_up
+    default_paramiters.permit(:first_name, :last_name, :handle, :email, :password, :password_confirmation, :current_password)
+  end
+
+  def account_account_update
+    default_paramiters.permit(:first_name, :last_name, :handle, :email, :password, :password_confirmation, :current_password)
+  end
 end

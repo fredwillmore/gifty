@@ -1,5 +1,6 @@
 Gifty::Application.routes.draw do
   namespace :admin do
+    root to: "dashboard#index"
     resources :gifts
     resources :users
     resources :roles
@@ -9,34 +10,25 @@ Gifty::Application.routes.draw do
     resources :purchases
   end
 
-  # match :admin, :to => 'admin/dashboards#index'
-  namespace :admin do
-    root to: "dashboard#index"
-    # get 'index', to: 'dashboard#index', as: '/'
-    # get '', to: 'dashboard#index', as: '/'
-
-    # resources :merchant_types
-    # resources :roles
-    #
-    # resources :locations
-    # resources :purchases
-    #
-    # resources :merchants
-    # get '/get_merchants_by_area' => 'merchants#get_by_area'
-    #
-    # resources :gifts
-  end
-
   devise_for :users
   resources :users, :only => [:index, :show, :edit, :new, :update] do
     member do
       get 'favorites'
       #post 'update_favorite'
+      get 'add_friend'
+      get 'approve_friend_request'
+      get 'decline_friend_request'
+      get 'unfriend'
       get 'friends'
       get 'friend_search'
     end
   end
   post '/update_favorite' => 'users#update_favorite'
+
+  resources :gifts
+  resources :merchants
+  resources :purchases
+  resources :roles
 
 
   # The priority is based upon order of creation: first created -> highest priority.
