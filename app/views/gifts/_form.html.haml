@@ -1,0 +1,36 @@
+= form_for(@gift) do |f|
+  - if @gift.errors.any?
+    .error_explanation
+      %h2
+        = pluralize(@gift.errors.count, "error")
+        prohibited this gift from being saved:
+      %ul
+        - @gift.errors.full_messages.each do |msg|
+          %li= msg
+  .field
+    = f.label :receiver_id
+    %br
+    = collection_select(:gift, :receiver_id, current_user.friends, :friend_id, :to_s, prompt: "- select -", id: 'gift_receiver_id')
+  .field
+    = f.label :merchant_id
+    %br
+    = collection_select(:gift, :merchant_id, (@gift.receiver_id ? User.find(@gift.receiver_id).favorite_merchants : []), :id, :to_s, prompt: "- select -", id: 'gift_merchant_id')
+  .field
+    = f.label :amount
+    %br
+    = f.text_field :amount
+  .field
+    = f.label :amount
+    %br
+    = f.text_field :amount
+  .actions= f.submit
+
+:javascript
+  $("#gift_receiver_id").change(function(){
+    alert($(this).val());
+    if($(this).val() > 0) {
+      var str = '/users/' + $(this).val() + '/favorites';
+      $.get(str);
+      alert(str);
+    }
+  });

@@ -9,6 +9,10 @@ class UsersController < InheritedResources::Base
   end
 
   def favorites
+    respond_to do |format|
+      format.html
+      format.js
+    end
   end
 
   def add_friend

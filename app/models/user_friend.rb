@@ -31,4 +31,7 @@ class UserFriend < ActiveRecord::Base
     end
   end
 
+  def to_s
+    User.find(friend_id).to_s
+  end
 end
