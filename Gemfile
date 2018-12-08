@@ -1,6 +1,8 @@
 
 source 'https://rubygems.org'
 
+ruby '2.5.1'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
@@ -85,7 +87,7 @@ gem 'backbone-on-rails'
 #gem 'coffee-rails-source-maps', group: :development
 #gem 'sass-rails-source-maps', group: :development
 
-gem 'coffee-rails-source-maps'
+# gem 'coffee-rails-source-maps'
 #gem 'sass-rails-source-maps'
 
 gem 'haml'
