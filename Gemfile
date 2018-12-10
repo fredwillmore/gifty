@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 ruby '2.5.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', '~> 5.2.1'
 
 gem 'pg'
 
@@ -56,13 +56,9 @@ gem 'binding_of_caller', group: :development
 gem 'meta_request', group: :development
 
 gem 'globalize3'
-#gem "devise", ">= 2.2.4"
 gem "devise"
-#gem 'devise_invitable', '~> 1.1.0'
 gem 'devise_invitable'
-#gem "cancan", ">= 1.6.8"
 gem "cancan"
-#gem "rolify", ">= 3.2.0"
 gem "rolify"
 
 gem 'state_machine'
@@ -78,7 +74,7 @@ gem "inherited_resources"
 
 gem 'activerecord-postgres-hstore'
 
-gem "squeel"
+# gem "squeel"
 
 gem 'pg_search'
 
@@ -94,5 +90,5 @@ gem 'haml'
 
 group :test do
   gem "mocha"
-  gem "minitest", "~> 4.7"
+  gem "minitest"
 end
